@@ -437,39 +437,6 @@ Other languages with a great number of subtitles are: Danish, French, Swedish, D
     </extension>
 </addon>
 
-<addon id="repository.mirror" name="mirror Repository" version="1.1.2a" provider-name="Cy4Root">
-	<extension point="xbmc.addon.repository" name="Cy4Root">
-	        <dir>		
-			<info compressed="false">http://newmirror.000webhostapp.com/mirror/addons.xml</info>
-            		<checksum>http://newmirror.000webhostapp.com/mirror/addons.xml.md5</checksum>
-            		<datadir zip="true">http://newmirror.000webhostapp.com/mirror</datadir>
-		</dir>
-		<dir>
-			<info compressed="false">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml</info>
-        		<checksum>https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml.md5</checksum>
-        		<datadir zip="true">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/zips/</datadir>
-		</dir>
-		<dir>
-			<info compressed="false">https://raw.githubusercontent.com/thebackup/repository.thebackup/master/addons.xml</info>
-        		<checksum>https://raw.githubusercontent.com/thebackup/repository.thebackup/master/addons.xml.md5</checksum>
-       		        <datadir zip="true">https://raw.githubusercontent.com/thebackup/repository.thebackup/master/</datadir>
-			<hashes>false</hashes>
-		</dir>
-		<dir>
-			<info compressed="false">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml</info>
-            		<checksum>https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml.md5</checksum>
-            		<datadir zip="true">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/</datadir>
-			<hashes>false</hashes>
-		</dir>
-	</extension>
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en">Cy4Root Add-on Repository</summary>
-        <description lang="en"></description>
-        <platform>all</platform>
-		<news></news>
-    </extension>
-</addon>
-
 <addon id="script.module.metahandler" 
      name="metahandler" 
      version="3.99.02" 
