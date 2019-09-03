@@ -1,0 +1,15 @@
+﻿======[B][COLOR green]Status: SUPPORTED[/COLOR][/B]========
+
+
+=======[B]SUPPORT[/B]========
+
+Repository V.1.1.1
+
+v. 1.0.6 possibility to have the first subtitle downloaded automatically via the settings menu
+
+V. 1.0.5c Fix scrapers 
+
+V.1.0.5B Scrapers and index are updated
+
+
+@Cy4Root
