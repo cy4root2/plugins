@@ -1,0 +1,19 @@
+<addon id="script.module.mirror" name="[COLOR red]mirror Module[/COLOR]" provider-name="Cy4Root" version="1.2.9b">
+    <requires>
+        <import addon="xbmc.python" version="2.19.0" />
+        <import addon="script.module.beautifulsoup4" />
+        <import addon="script.module.beautifulsoup" />
+        <import addon="script.module.dateutil" />
+        <import addon="script.module.futures" />
+        <import addon="script.module.requests" />
+    </requires>
+    <extension library="lib" point="xbmc.python.module" />
+    <extension point="xbmc.addon.metadata">
+        <summary>mirror Module</summary>
+        <description>mirror Module</description>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon>
