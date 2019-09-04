@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.module.13ducks" version="5.0.34a" name="[B][COLOR red]13Ducks[/COLOR] Script.Module[/B]" provider-name="Cy4Root">
+<addon id="script.module.13ducks" version="5.0.34b" name="[B][COLOR red]13Ducks[/COLOR] Script.Module[/B]" provider-name="Cy4Root">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.beautifulsoup4" />
