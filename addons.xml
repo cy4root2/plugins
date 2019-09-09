@@ -68,7 +68,7 @@
     </extension>
 </addon>
 	
-<addon id="script.module.chucky" version="5.0.44" name="[B][COLOR red]chucky[/COLOR] Script.Module[/B]" provider-name="Cy4Root">
+<addon id="script.module.chucky" version="5.0.44a" name="[B][COLOR red]chucky[/COLOR] Script.Module[/B]" provider-name="Cy4Root">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.beautifulsoup4" />
