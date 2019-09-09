@@ -1,15 +1,13 @@
-﻿======[B][COLOR green]Status: SUPPORTED[/COLOR][/B]========
+======[B][COLOR green]Status: Online[/COLOR][/B]========
+ 
+[COLOR blue]check by Rootmaster
+Time:  
+Date: 08-09-2019[/COLOR]
 
 
-=======[B]SUPPORT[/B]========
+[COLOR pink] V.1.0.8 upgrade scrapers[/COLOR]
 
-Repository V.1.1.1
-
-v. 1.0.6 possibility to have the first subtitle downloaded automatically via the settings menu
-
-V. 1.0.5c Fix scrapers 
-
-V.1.0.5B Scrapers and index are updated
+Cy4Scrapers are a beta test version
 
 
-@Cy4Root
+[COLOR red]@ Cy4Root [/COLOR]
