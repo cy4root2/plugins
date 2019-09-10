@@ -22,6 +22,7 @@
     </extension>
     <extension library="service.py" point="xbmc.service" start="[startup|login]" />
     <extension point="xbmc.addon.metadata">
+        <summary lang="en"></summary>
         <description lang="en">Chucky2 is based on Cy4Scrapers which makes the program work faster under GNU licence</description>
         <disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon.[CR]The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation. </disclaimer>
         <license>GNU</license>
