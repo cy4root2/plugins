@@ -26,7 +26,7 @@
 	</extension>
 </addon>
 	
-<addon id="script.chucky2.artwork" version="5.1.0" name="chucky2 Artwork" provider-name="Cy4Root">
+<addon id="script.chucky2.artwork" version="5.1.1" name="chucky2 Artwork" provider-name="Cy4Root">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
 	</requires>
@@ -38,7 +38,7 @@
 	</extension>
 </addon>
 	
-<addon id="plugin.video.chucky2" version="2.0.1" name="[COLOR red]Chucky2[/COLOR]" provider-name="Cy4Root">
+<addon id="plugin.video.chucky2" version="2.0.2" name="[COLOR red]Chucky2[/COLOR]" provider-name="Cy4Root">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.chucky2" />
