@@ -878,6 +878,19 @@ Other languages with a great number of subtitles are: Danish, French, Swedish, D
     </assets>
   </extension>
 </addon>
+	
+<addon id="script.module.cryptolib" name="Crypto Libraries" version="1.0.0" provider-name="Twilight0">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary>Pure Python implementation of some cryptographic libraries</summary>
+    <source>https://github.com/Twilight0/script.module.cryptolib</source>
+    <platform>all</platform>
+    <license>MIT</license>
+  </extension>
+</addon>
 
 		
 </addons>
