@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.module.cy4scrapers" name="Cy4 Scrapers Module" version="1.0.5b" provider-name="Cy4Root">
+<addon id="script.module.cy4scrapers" name="Cy4 Scrapers Module" version="1.0.5c" provider-name="Cy4Root">
     <requires>
         <import addon="xbmc.python" version="2.25.0" />
         <import addon="script.module.beautifulsoup4"/>
