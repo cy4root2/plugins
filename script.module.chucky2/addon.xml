@@ -1,4 +1,4 @@
-<addon id="script.module.chucky2" name="[COLOR red]Chucky2 Module[/COLOR]" provider-name="Cy4Root" version="2.0.3">
+<addon id="script.module.chucky2" name="[COLOR red]Chucky2 Module[/COLOR]" provider-name="Cy4Root" version="2.0.3a">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.beautifulsoup4" />
