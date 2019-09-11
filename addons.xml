@@ -2,7 +2,7 @@
 
 <addons>
 
-<addon id="plugin.video.chucky2" name="[COLOR red][B]Chucky2[COLOR gold] Video[/B][/COLOR]" provider-name="Cy4Root" version="2.0.4a">
+<addon id="plugin.video.chucky2" name="[COLOR red][B]Chucky2[COLOR gold] Video[/B][/COLOR]" provider-name="Cy4Root" version="2.0.4b">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.chucky2" />
