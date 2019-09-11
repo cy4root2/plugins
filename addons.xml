@@ -12,9 +12,6 @@
 	<import addon="script.module.cy4scrapers" />
         <import addon="script.module.metahandler" />
         <import addon="script.module.requests" />
-	<import addon="script.module.tt" />
-	<import addon="script.module.laola1tv" />
-	<import addon="plugin.video.sport365.live" />
 	<import addon="plugin.video.youtube" />
     </requires>
     <extension library="main.py" point="xbmc.python.pluginsource">
