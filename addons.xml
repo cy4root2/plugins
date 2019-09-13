@@ -2,12 +2,12 @@
 
 <addons>
 
-<addon id="plugin.video.chucky2" name="[COLOR red][B]Chucky2[COLOR gold] Video[/B][/COLOR]" provider-name="Cy4Root" version="2.0.4c">
+<addon id="plugin.video.chucky" name="[COLOR red][B]Chucky[COLOR gold] Video[/B][/COLOR]" provider-name="Cy4Root" version="1.1.2">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
-        <import addon="script.module.chucky2" />
-        <import addon="script.chucky2.artwork" />
-        <import addon="script.chucky2.metadata" />
+        <import addon="script.module.chucky" />
+        <import addon="script.chucky.artwork" />
+        <import addon="script.chucky.metadata" />
         <import addon="script.module.resolveurl" />
 	<import addon="script.module.cy4scrapers" />
         <import addon="script.module.metahandler" />
@@ -20,7 +20,7 @@
     <extension library="service.py" point="xbmc.service" start="[startup|login]" />
     <extension point="xbmc.addon.metadata">
         <summary lang="en">Movies and TvShows</summary>
-        <description lang="en">Chucky2 is based on Cy4Scrapers which makes the program work faster under GNU licence</description>
+        <description lang="en">Chucky is based on Cy4Scrapers which makes the program work faster under GNU licence</description>
         <disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon.[CR]The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation. </disclaimer>
         <license>GNU</license>
         <platform>all</platform>
@@ -32,103 +32,8 @@
         <news> </news>
     </extension>
 </addon>
-
-<addon id="script.chucky2.artwork" version="5.1.2b" name="[COLOR red]Chucky2 Artwork[/COLOR]" provider-name="Cy4Root">
-    <requires>
-        <import addon="xbmc.python" version="2.19.0"/>
-    </requires>
-    <extension point="xbmc.python.module" library="lib" />
-    <extension point="xbmc.addon.metadata">
-        <summary>Chucky2 Artwork</summary>
-        <description>Chucky2 Artwork</description>
-        <platform>all</platform>
-        <assets>
-            <icon>icon.gif</icon>
-        </assets>
-        <news></news>
-    </extension>
-</addon>
 	
-<addon id="script.chucky2.metadata" version="5.0.2a" name="[COLOR red]Chucky2 Metadata[/COLOR]" provider-name="Cy4Root">
-	<requires>
-		<import addon="xbmc.python" version="2.19.0"/>
-	</requires>
-	<extension point="xbmc.python.module" library="lib" />
-	<extension point="xbmc.addon.metadata">
-		<summary>Chucky2 Metadata</summary>
-		<description>Chucky2 Metadata</description>
-		<platform>all</platform>
-		<assets>
-			<icon>icon.gif</icon>
-		</assets>
-	</extension>
-</addon>
-	
-<addon id="script.module.chucky2" name="[COLOR red]Chucky2 Module[/COLOR]" provider-name="Cy4Root" version="2.0.3b">
-    <requires>
-        <import addon="xbmc.python" version="2.19.0" />
-        <import addon="script.module.beautifulsoup4" />
-        <import addon="script.module.beautifulsoup" />
-        <import addon="script.module.dateutil" />
-        <import addon="script.module.futures" />
-        <import addon="script.module.requests" />
-    </requires>
-    <extension library="lib" point="xbmc.python.module" />
-    <extension point="xbmc.addon.metadata">
-        <summary>Chucky2 Module</summary>
-        <description>Chucky2 Module</description>
-        <platform>all</platform>
-        <assets>
-            <icon>icon.gif</icon>
-        </assets>
-    </extension>
-</addon>
-	
-<addon id="script.chucky.metadata" version="5.0.9c" name="chucky Metadata" provider-name="Cy4Root">
-	<requires>
-		<import addon="xbmc.python" version="2.19.0"/>
-	</requires>
-	<extension point="xbmc.python.module" library="lib" />
-	<extension point="xbmc.addon.metadata">
-		<summary>Metadata for the Chucky Addon</summary>
-		<description></description>
-		<platform>all</platform>
-	</extension>
-</addon>
-	
-<addon id="plugin.video.chucky" version="1.1.1" name="[B][COLOR red]chucky[/COLOR] Video[/B]" provider-name="Cy4Root">
-   <requires>
-        <import addon="xbmc.python" version="2.19.0" />
-        <import addon="script.module.chucky" />
-        <import addon="script.chucky.artwork" />
-        <import addon="script.chucky.metadata" />
-        <import addon="script.module.resolveurl" />
-        <import addon="script.module.requests" />
-        <import addon="script.module.metahandler" />
-        <import addon="plugin.video.youtube"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="chucky.py">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.service" library="service.py" start="startup" />
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en">[B][COLOR red]chucky[/COLOR] Video[/B]the best stuff.</summary>
-        <description lang="en">This addon does not form part of the Kodi Media Centre. Please do not seek assistance with this addon from any of the Official Kodi Support Channels.The author does not host any of the content in this addon and takes no responsibility for content found.</description>
-        <disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon. The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation. This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works</disclaimer>
-    <platform>all</platform>
-    <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
-    <assets>
-        <icon>icon.gif</icon>
-        <fanart>fanart.jpg</fanart>
-        <screenshot>resources/screenshots/1.png</screenshot>
-        <screenshot>resources/screenshots/2.png</screenshot>
-        <screenshot>resources/screenshots/3.png</screenshot>
-    </assets>
-    <news></news>
-    </extension>
-</addon>
-	
-<addon id="script.chucky.artwork" version="5.1.1a" name="[B][COLOR red]chucky[/COLOR] Artwork[/B]" provider-name="Cy4Root">
+<addon id="script.chucky.artwork" version="5.1.2" name="[B][COLOR red]chucky[/COLOR] Artwork[/B]" provider-name="Cy4Root">
     <requires>
         <import addon="xbmc.python" version="2.19.0"/>
     </requires>
@@ -140,7 +45,7 @@
     <platform>all</platform>
     <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
     <assets>
-        <icon>icon.png</icon>
+        <icon>icon.gif</icon>
         <fanart></fanart>
         <screenshot></screenshot>
         <screenshot></screenshot>
@@ -150,32 +55,41 @@
     </extension>
 </addon>
 	
-<addon id="script.module.chucky" version="5.0.44a" name="[B][COLOR red]chucky[/COLOR] Script.Module[/B]" provider-name="Cy4Root">
+<addon id="script.chucky.metadata" version="5.1.0" name="[COLOR red]Chucky Metadata[/COLOR]" provider-name="Cy4Root">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<summary>Chucky Metadata</summary>
+		<description>Chucky Metadata</description>
+		<platform>all</platform>
+		<assets>
+			<icon>icon.gif</icon>
+		</assets>
+	</extension>
+</addon>
+	
+<addon id="script.module.chucky" name="[COLOR red]Chucky Module[/COLOR]" provider-name="Cy4Root" version="5.0.45">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.beautifulsoup4" />
+        <import addon="script.module.beautifulsoup" />
         <import addon="script.module.dateutil" />
         <import addon="script.module.futures" />
         <import addon="script.module.requests" />
     </requires>
-    <extension point="xbmc.python.module" library="lib" />
+    <extension library="lib" point="xbmc.python.module" />
     <extension point="xbmc.addon.metadata">
-    <summary lang="en">[B][COLOR red]chucky[/COLOR] Script.Module[/B]the best stuff.</summary>
-    <description lang="en">This addon does not form part of the Kodi Media Centre. Please do not seek assistance with this addon from any of the Official Kodi Support Channels.The author does not host any of the content in this addon and takes no responsibility for content found.</description>
-    <disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon. The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation. This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works</disclaimer>
-    <platform>all</platform>
-    <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
-    <assets>
-        <icon>icon.png</icon>
-        <fanart></fanart>
-        <screenshot></screenshot>
-        <screenshot></screenshot>
-        <screenshot></screenshot>
-    </assets>
-    <news></news>
+        <summary>Chucky Module</summary>
+        <description>Chucky Module</description>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.gif</icon>
+        </assets>
     </extension>
 </addon>
-
+	
 <addon id="plugin.video.mirror" name="[COLOR orange][B]MirRoR[COLOR white] Video[/B][/COLOR]" provider-name="Cy4Root" version="2.2.9a">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
