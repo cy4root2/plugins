@@ -1,26 +1,19 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.module.chucky" version="5.0.44a" name="[B][COLOR red]chucky[/COLOR] Script.Module[/B]" provider-name="Cy4Root">
+<addon id="script.module.chucky" name="[COLOR red]Chucky Module[/COLOR]" provider-name="Cy4Root" version="5.0.45">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.beautifulsoup4" />
+        <import addon="script.module.beautifulsoup" />
         <import addon="script.module.dateutil" />
         <import addon="script.module.futures" />
         <import addon="script.module.requests" />
     </requires>
-    <extension point="xbmc.python.module" library="lib" />
+    <extension library="lib" point="xbmc.python.module" />
     <extension point="xbmc.addon.metadata">
-    <summary lang="en">[B][COLOR red]chucky[/COLOR] Script.Module[/B]the best stuff.</summary>
-    <description lang="en">This addon does not form part of the Kodi Media Centre. Please do not seek assistance with this addon from any of the Official Kodi Support Channels.The author does not host any of the content in this addon and takes no responsibility for content found.</description>
-    <disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon. The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation. This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works</disclaimer>
-    <platform>all</platform>
-    <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
-    <assets>
-        <icon>icon.png</icon>
-        <fanart></fanart>
-        <screenshot></screenshot>
-        <screenshot></screenshot>
-        <screenshot></screenshot>
-    </assets>
-    <news></news>
+        <summary>Chucky Module</summary>
+        <description>Chucky Module</description>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.gif</icon>
+        </assets>
     </extension>
 </addon>
