@@ -70,7 +70,7 @@
 	</extension>
 </addon>
 	
-<addon id="script.module.chucky" name="[COLOR red]Chucky Module[/COLOR]" provider-name="Cy4Root" version="5.0.45c">
+<addon id="script.module.chucky" name="[COLOR red]Chucky Module[/COLOR]" provider-name="Cy4Root" version="5.0.46">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.beautifulsoup4" />
