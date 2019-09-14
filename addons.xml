@@ -2,7 +2,7 @@
 
 <addons>
 	
-<addon id="script.module.cy4scrapers" name="Cy4Scrapers Module" version="1.0.6d" provider-name="Cy4Root">
+<addon id="script.module.cy4scrapers" name="Cy4Scrapers Module" version="1.0.7" provider-name="Cy4Root">
     <requires>
         <import addon="xbmc.python" version="2.25.0" />
         <import addon="script.module.beautifulsoup4"/>
