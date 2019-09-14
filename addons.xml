@@ -750,22 +750,6 @@ Other languages with a great number of subtitles are: Danish, French, Swedish, D
         <platform>all</platform>
     </extension>
 </addon>
-
-<addon id="repository.cy4root" name="cy4root Repository" version="1.1.6b" provider-name="Cy4Root">
-	<extension point="xbmc.addon.repository" name="Cy4Root">
-	        <dir>		
-			<info compressed="false">https://raw.githubusercontent.com/cy4root/plugins/master/addons.xml</info>
-            		<checksum>https://raw.githubusercontent.com/cy4root/plugins/master/addons.xml.md5</checksum>
-            		<datadir zip="true">https://raw.githubusercontent.com/cy4root/plugins/master</datadir>
-			</dir>
-	</extension>
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en">Cy4Root Add-on Repository</summary>
-        <description lang="en"></description>
-        <platform>all</platform>
-		<news></news>
-    </extension>
-</addon>
 	
 <addon id="plugin.video.f4mTester" version="3.0.0" name="F4mTester" provider-name="Shani">
     <requires>
@@ -819,5 +803,20 @@ Other languages with a great number of subtitles are: Danish, French, Swedish, D
   </extension>
 </addon>
 
+<addon id="repository.cy4root" name="cy4root Repository" version="1.1.6b" provider-name="Cy4Root">
+	<extension point="xbmc.addon.repository" name="Cy4Root">
+	        <dir>		
+			<info compressed="false">https://raw.githubusercontent.com/cy4root/plugins/master/addons.xml</info>
+            		<checksum>https://raw.githubusercontent.com/cy4root/plugins/master/addons.xml.md5</checksum>
+            		<datadir zip="true">https://raw.githubusercontent.com/cy4root/plugins/master</datadir>
+			</dir>
+	</extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Cy4Root Add-on Repository</summary>
+        <description lang="en"></description>
+        <platform>all</platform>
+		<news></news>
+    </extension>
+</addon>
 		
 </addons>
