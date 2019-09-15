@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.chucky" name="[COLOR red][B]Chucky[COLOR gold] Video[/B][/COLOR]" provider-name="Cy4Root" version="1.1.2">
+<addon id="plugin.video.chucky" name="[COLOR red][B]Chucky[COLOR gold] Video[/B][/COLOR]" provider-name="Cy4Root" version="1.1.3">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.chucky" />
@@ -17,7 +17,7 @@
     <extension library="service.py" point="xbmc.service" start="[startup|login]" />
     <extension point="xbmc.addon.metadata">
         <summary lang="en">Movies and TvShows</summary>
-        <description lang="en">Chucky is based on Cy4Scrapers which makes the program work faster under GNU licence</description>
+        <description lang="en">Chucky is based on 2Modules Cy4Scrapers or build providers.. thnx for Exodus Redux</description>
         <disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon.[CR]The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation. </disclaimer>
         <license>GNU</license>
         <platform>all</platform>
