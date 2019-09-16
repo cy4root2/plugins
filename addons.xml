@@ -829,7 +829,7 @@ Other languages with a great number of subtitles are: Danish, French, Swedish, D
   </extension>
 </addon>
 
-<addon id="repository.cy4root" name="cy4root Repository" version="1.0.8" provider-name="Cy4Root">
+<addon id="repository.cy4root" name="cy4root Repository" version="1.0.8a" provider-name="Cy4Root">
 	<extension point="xbmc.addon.repository" name="Cy4Root">
 	        <dir>		
 			<info compressed="false">https://raw.githubusercontent.com/cy4root/plugins/master/addons.xml</info>
