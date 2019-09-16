@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.chucky" name="[COLOR red][B]Chucky[COLOR gold] Video[/B][/COLOR]" provider-name="Cy4Root" version="1.1.5b">
+<addon id="plugin.video.chucky" name="[COLOR red][B]Chucky[COLOR gold] Video[/B][/COLOR]" provider-name="Cy4Root" version="1.1.5c">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.chucky" />
         <import addon="script.chucky.artwork" />
         <import addon="script.chucky.metadata" />
+        <import addon="script.module.openscrapers" />
         <import addon="script.module.resolveurl" />
         <import addon="script.module.metahandler" />
         <import addon="script.module.requests" />
