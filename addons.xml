@@ -26,17 +26,15 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.chucky" name="[COLOR red][B]Chucky[COLOR gold] Video[/B][/COLOR]" provider-name="Cy4Root" version="1.1.5a">
+<addon id="plugin.video.chucky" name="[COLOR red][B]Chucky[COLOR gold] Video[/B][/COLOR]" provider-name="Cy4Root" version="1.1.5b">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.chucky" />
         <import addon="script.chucky.artwork" />
         <import addon="script.chucky.metadata" />
         <import addon="script.module.resolveurl" />
-	<import addon="script.module.cy4scrapers" />
         <import addon="script.module.metahandler" />
         <import addon="script.module.requests" />
-	<import addon="plugin.video.youtube" />
     </requires>
     <extension library="main.py" point="xbmc.python.pluginsource">
         <provides>video</provides>
@@ -44,7 +42,7 @@
     <extension library="service.py" point="xbmc.service" start="[startup|login]" />
     <extension point="xbmc.addon.metadata">
         <summary lang="en">Movies and TvShows</summary>
-        <description lang="en">Based on 13Clowns and Exodus with multi scrapers
+        <description lang="en">Based on 13Clowns and Exodus # choice of build providers or open scrapers settings.
 falls under GNU license</description>
         <disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon.[CR]The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation. </disclaimer>
         <license>GNU</license>
@@ -96,7 +94,7 @@ falls under GNU license</description>
 	</extension>
 </addon>
 	
-<addon id="script.module.chucky" name="[COLOR red]Chucky Module[/COLOR]" provider-name="Cy4Root" version="5.0.48">
+<addon id="script.module.chucky" name="[COLOR red]Chucky Module[/COLOR]" provider-name="Cy4Root" version="5.0.48a">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.beautifulsoup4" />
