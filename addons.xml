@@ -828,19 +828,25 @@ Other languages with a great number of subtitles are: Danish, French, Swedish, D
   </extension>
 </addon>
 
-<addon id="repository.cy4root" name="cy4root Repository" version="1.1.7" provider-name="Cy4Root">
+<addon id="repository.cy4root" name="cy4root Repository" version="1.1.7a" provider-name="Cy4Root">
 	<extension point="xbmc.addon.repository" name="Cy4Root">
-	        <dir>		
-			<info compressed="false">https://raw.githubusercontent.com/cy4root/plugins/master/addons.xml</info>
-            		<checksum>https://raw.githubusercontent.com/cy4root/plugins/master/addons.xml.md5</checksum>
-            		<datadir zip="true">https://raw.githubusercontent.com/cy4root/plugins/master</datadir>
-			</dir>
-	</extension>
+	<dir>		
+        <info compressed="false">https://raw.githubusercontent.com/cy4root/plugins/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/cy4root/plugins/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/cy4root/plugins/master</datadir>
+        </dir>
+    <dir>
+        <info compressed="false">https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/</datadir>
+    </dir>
+    </extension>
     <extension point="xbmc.addon.metadata">
         <summary lang="en">Cy4Root Add-on Repository</summary>
         <description lang="en"></description>
         <platform>all</platform>
 		<news></news>
     </extension>
-</addon>		
+</addon>
+	
 </addons>
