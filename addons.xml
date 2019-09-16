@@ -2,7 +2,7 @@
 
 <addons>
 	
-<addon id="script.module.openscrapers" name="OpenScrapers Module" version="0.0.1.95" provider-name="Addons4Kodi">
+<addon id="script.module.openscrapers" name="OpenScrapers Module" version="0.0.1.95a" provider-name="Addons4Kodi">
     <requires>
         <import addon="xbmc.python" version="2.25.0" />
         <import addon="script.module.beautifulsoup4"/>
@@ -119,7 +119,7 @@ falls under GNU license</description>
 	</extension>
 </addon>
 	
-<addon id="script.module.chucky" name="[COLOR red]Chucky Module[/COLOR]" provider-name="Cy4Root" version="5.0.48a">
+<addon id="script.module.chucky" name="[COLOR red]Chucky Module[/COLOR]" provider-name="Cy4Root" version="5.0.48b">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.beautifulsoup4" />
