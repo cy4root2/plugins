@@ -1,4 +1,4 @@
-<addon id="script.module.mirror" name="[COLOR red]mirror Module[/COLOR]" provider-name="Cy4Root" version="1.3.0">
+<addon id="script.module.mirror" name="[COLOR red]mirror Module[/COLOR]" provider-name="Cy4Root" version="2.3.0a">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.beautifulsoup4" />
