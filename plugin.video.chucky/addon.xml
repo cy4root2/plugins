@@ -5,7 +5,7 @@
         <import addon="script.module.chucky" />
         <import addon="script.chucky.artwork" />
         <import addon="script.chucky.metadata" />
-        <import addon="script.module.openscrapers" />
+        <import addon="script.module.openscrapers" version="0.0.1.95" />
         <import addon="script.module.resolveurl" />
         <import addon="script.module.metahandler" />
         <import addon="script.module.requests" />
