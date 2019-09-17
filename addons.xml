@@ -26,14 +26,12 @@
     </extension>
 </addon>
 
-
-<addon id="plugin.video.chucky" name="[COLOR red][B]Chucky[COLOR gold] Video[/B][/COLOR]" provider-name="Cy4Root" version="1.1.6">
+<addon id="plugin.video.chucky" name="[COLOR red][B]Chucky[COLOR gold] Video[/B][/COLOR]" provider-name="Cy4Root" version="1.1.6a">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
-        <import addon="script.module.chucky" />
         <import addon="script.chucky.artwork" />
         <import addon="script.chucky.metadata" />
-        <import addon="script.module.openscrapers" version="0.0.1.95" />
+        <import addon="script.module.openscrapers" />
         <import addon="script.module.resolveurl" />
         <import addon="script.module.metahandler" />
         <import addon="script.module.requests" />
@@ -57,7 +55,8 @@ falls under GNU license</description>
         <news> </news>
     </extension>
 </addon>
-	
+
+
 	
 <addon id="script.chucky.artwork" version="5.1.2" name="[B][COLOR red]chucky[/COLOR] Artwork[/B]" provider-name="Cy4Root">
     <requires>
@@ -94,26 +93,6 @@ falls under GNU license</description>
 			<icon>icon.gif</icon>
 		</assets>
 	</extension>
-</addon>
-	
-<addon id="script.module.chucky" name="[COLOR red]Chucky Module[/COLOR]" provider-name="Cy4Root" version="5.0.49">
-    <requires>
-        <import addon="xbmc.python" version="2.19.0" />
-        <import addon="script.module.beautifulsoup4" />
-        <import addon="script.module.beautifulsoup" />
-        <import addon="script.module.dateutil" />
-        <import addon="script.module.futures" />
-        <import addon="script.module.requests" />
-    </requires>
-    <extension library="lib" point="xbmc.python.module" />
-    <extension point="xbmc.addon.metadata">
-        <summary>Chucky Module</summary>
-        <description>Chucky Module</description>
-        <platform>all</platform>
-        <assets>
-            <icon>icon.gif</icon>
-        </assets>
-    </extension>
 </addon>
 	
 <addon id="plugin.video.mirror" name="[COLOR orange][B]MirRoR[COLOR white] Video[/B][/COLOR]" provider-name="Cy4Root" version="2.3.0b">
