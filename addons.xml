@@ -95,20 +95,15 @@ falls under GNU license</description>
 	</extension>
 </addon>
 	
-<addon id="plugin.video.mirror" name="[COLOR orange][B]MirRoR[COLOR white] Video[/B][/COLOR]" provider-name="Cy4Root" version="2.3.0b">
+<addon id="plugin.video.mirror" name="[COLOR orange][B]MirRoR[COLOR white] Video[/B][/COLOR]" provider-name="Cy4Root" version="2.3.1">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
-        <import addon="script.module.mirror" />
         <import addon="script.mirror.artwork" />
         <import addon="script.mirror.metadata" />
 	<import addon="script.module.openscrapers" />
         <import addon="script.module.resolveurl" />
         <import addon="script.module.metahandler" />
         <import addon="script.module.requests" />
-	<import addon="script.module.tt" />
-	<import addon="script.module.laola1tv" />
-	<import addon="plugin.video.sport365.live" />
-	<import addon="plugin.video.youtube" />
     </requires>
     <extension library="main.py" point="xbmc.python.pluginsource">
         <provides>video</provides>
@@ -320,27 +315,7 @@ falls under GNU license</description>
       <source></source>
   </extension>
 </addon>
-	
-<addon id="script.module.mirror" name="[COLOR red]mirror Module[/COLOR]" provider-name="Cy4Root" version="2.3.0a">
-    <requires>
-        <import addon="xbmc.python" version="2.19.0" />
-        <import addon="script.module.beautifulsoup4" />
-        <import addon="script.module.beautifulsoup" />
-        <import addon="script.module.dateutil" />
-        <import addon="script.module.futures" />
-        <import addon="script.module.requests" />
-    </requires>
-    <extension library="lib" point="xbmc.python.module" />
-    <extension point="xbmc.addon.metadata">
-        <summary>mirror Module</summary>
-        <description>mirror Module</description>
-        <platform>all</platform>
-        <assets>
-            <icon>icon.png</icon>
-        </assets>
-    </extension>
-</addon>
-	
+		
 <addon id="script.module.python.twitch" name="python-twitch for Kodi" version="2.0.7" provider-name="A Talented Community">
     <requires>
         <import addon="xbmc.python" version="2.20.0"/>
