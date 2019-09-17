@@ -50,7 +50,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.chucky" name="[COLOR red][B]Chucky[COLOR gold] Video[/B][/COLOR]" provider-name="Cy4Root" version="1.1.5c">
+<addon id="plugin.video.chucky" name="[COLOR red][B]Chucky[COLOR gold] Video[/B][/COLOR]" provider-name="Cy4Root" version="1.1.6">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.chucky" />
@@ -119,7 +119,7 @@ falls under GNU license</description>
 	</extension>
 </addon>
 	
-<addon id="script.module.chucky" name="[COLOR red]Chucky Module[/COLOR]" provider-name="Cy4Root" version="5.0.48b">
+<addon id="script.module.chucky" name="[COLOR red]Chucky Module[/COLOR]" provider-name="Cy4Root" version="5.0.49">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.beautifulsoup4" />
