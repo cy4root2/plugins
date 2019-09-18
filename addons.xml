@@ -2,7 +2,7 @@
 
 <addons>
 	
-<addon id="script.module.liptonscrapers" name="Liptonscrapers Module" version="1.0.0" provider-name="Cy4Root">
+<addon id="script.module.liptonscrapers" name="Liptonscrapers Module" version="1.0.1" provider-name="Cy4Root">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
         <import addon="script.module.beautifulsoup4"/>
