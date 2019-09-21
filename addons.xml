@@ -2,6 +2,28 @@
 
 <addons>
 	
+<addon id="script.module.slproxy" name="SLProxy" version="0.0.3" provider-name="devilsport">
+  <requires>
+    <import addon="xbmc.python" version="2.24.0"/>
+    <import addon="script.module.requests"/>
+	  <import addon="script.module.streamlink.base" />  
+  </requires>
+  <extension point="xbmc.python.module" library="lib/"/>
+  <extension point="xbmc.addon.metadata">
+    <summary>StreamLink Proxy DS</summary>
+    <description>Streamlink proxy for Kodi</description>
+    <platform>all</platform>
+    <license>Simplified BSD</license>
+    <source></source>
+    <language>en</language>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+    <news>
+    </news>
+  </extension>
+</addon>
+	
 <addon id="plugin.video.jizzplanet" name="Jizz Planet" version="2.1.0" provider-name="Jizzplanet.com">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
