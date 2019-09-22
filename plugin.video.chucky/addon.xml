@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.chucky" name="[COLOR red][B]Chucky[COLOR gold] Video[/B][/COLOR]" provider-name="Cy4Root" version="1.1.01">
+<addon id="plugin.video.chucky" name="[COLOR red][B]Chucky[COLOR gold] Video[/B][/COLOR]" provider-name="Cy4Root" version="1.2.0.0">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.chucky.artwork" />
