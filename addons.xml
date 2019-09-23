@@ -755,7 +755,7 @@ Fixed: ParadiseHill
     </extension>
 </addon>
 		
-<addon id="script.chucky.artwork" version="5.1.2a" name="[B][COLOR red]chucky[/COLOR] Artwork[/B]" provider-name="Cy4Root">
+<addon id="script.chucky.artwork" version="5.1.2b" name="[B][COLOR red]chucky[/COLOR] Artwork[/B]" provider-name="Cy4Root">
     <requires>
         <import addon="xbmc.python" version="2.19.0"/>
     </requires>
