@@ -678,7 +678,7 @@ Fixed: ParadiseHill
 </addon>
 	
 	
-<addon id="script.module.liptonscrapers" name="Liptonscrapers Module" version="1.0.2b" provider-name="Cy4Root">
+<addon id="script.module.liptonscrapers" name="Liptonscrapers Module" version="1.0.2c" provider-name="Cy4Root">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
         <import addon="script.module.beautifulsoup4"/>
