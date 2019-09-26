@@ -1,0 +1,423 @@
+CURRENT STATUS: [COLOR springgreen]Good[/COLOR]
+
+
+
+
+
+[COLOR red]Placenta by Team Afterbirth Current Version 1.1.8[/COLOR]
+
+
+
+
+
+[COLOR red]-------------------------------------------------------------------------------------------------------[/COLOR]
+
+
+
+[B][COLOR red]2019/09/26[/COLOR][/B]
+
+
+[COLOR lime]Placenta ver 1.1.8[/COLOR]
+
+   - Fixed the orginal version of placenta
+    by: Cy4Root
+  - Scraper Updates
+  -- Movie database is repair
+  -- Sources list is updated
+  -- Kids Corner , Fitnesszone , Theaters enz are repaired
+
+
+[B][COLOR red]2018/02/05[/COLOR][/B]
+
+
+[COLOR lime]Placenta ver 1.1.5[/COLOR]
+
+
+	- Scraper Updates
+
+
+    - Garbage Scrapers removed (Movie4kto, etc)
+
+
+[COLOR lime]Placenta Module ver 1.1.9[/COLOR]
+
+
+    - Log Utils changes
+
+
+	- Scraper Updates
+
+
+    - Garbage Scrapers removed (Movie4kto, etc)
+
+
+
+
+
+[B][COLOR red]2018/02/03[/COLOR][/B]
+
+
+[COLOR lime]Placenta ver 1.1.4[/COLOR]
+
+
+    - Changed all urlresolver dependency code to the new resolveurl
+
+
+[COLOR lime]Placenta Module ver 1.1.8[/COLOR]
+
+
+    - Changed all urlresolver dependency code to the new resolveurl
+
+
+
+
+
+[B][COLOR red]2018/01/29[/COLOR][/B]
+
+
+[COLOR lime]Placenta ver 1.1.3[/COLOR]
+
+
+    - Scraper Updates
+
+
+[COLOR lime]Placenta Module ver 1.1.7[/COLOR]
+
+
+    - Scraper updates
+
+
+    - Added missing scrapers to Placenta Settings
+
+
+
+
+
+[B][COLOR red]2018/01/22[/COLOR][/B]
+
+
+[COLOR lime]Placenta ver 1.1.2[/COLOR]
+
+
+    - Scraper Updates
+
+
+    - Bit of fancying up progress dialog on scraper (I got bored)
+
+
+[COLOR lime]Placenta Module ver 1.1.6[/COLOR]
+
+
+    - trakt updates
+
+
+    - jsonunpack updates
+
+
+    - Scraper work
+
+
+
+
+
+[B][COLOR red]2018/01/19[/COLOR][/B]
+
+
+[COLOR lime]Placenta ver 1.1.1[/COLOR]
+
+
+    - API Key Updates (May require reset of settings to default)
+
+
+    - New "Clear Meta Cache" option under Tools
+
+
+    - New "Clear All Cache" option under Tools
+
+
+[COLOR lime]Placenta Module ver 1.1.5[/COLOR]
+
+
+    - TheMovieDB API Updates
+
+
+    - Fanart.TV API Updates
+
+
+    - New "Clear Meta Cache" option under Tools
+
+
+    - New "Clear All Cache" option under Tools
+
+
+
+
+
+[B][COLOR red]2018/01/18[/COLOR][/B]
+
+
+[COLOR lime]Placenta ver 1.1.0[/COLOR]
+
+
+    - Scraper Updates
+
+
+[COLOR lime]Placenta Module ver 1.1.4[/COLOR]
+
+
+    - Scraper Updates
+
+
+
+
+
+[B][COLOR red]2018/01/17[/COLOR][/B]
+
+
+[COLOR lime]Placenta ver 1.0.9[/COLOR]
+
+
+    - Scraper Updates
+
+
+[COLOR lime]Placenta Module ver 1.1.3[/COLOR]
+
+
+    - Scraper Updates
+
+
+
+
+
+[B][COLOR red]2018/01/12[/COLOR][/B]
+
+
+[COLOR lime]Placenta ver 1.0.8[/COLOR]
+
+
+    - Reoptimized YT Indexer
+
+
+[COLOR lime]Placenta Module ver 1.1.2[/COLOR]
+
+
+    - Reoptimized YT Indexer
+
+
+    - Updated IMDB Pagination for multiple scenarios
+
+
+    - Recommend Clearing Cache under Tools -> Clear Cache
+
+
+
+
+
+[B][COLOR red]2018/01/11[/COLOR][/B]
+
+
+[COLOR lime]Placenta ver 1.0.7[/COLOR]
+
+
+    - Movie Reviews and Trailers section added
+
+
+[COLOR lime]Placenta Artwork ver 1.0.4[/COLOR]
+
+
+    - Movie Reviews and Trailers icons added
+
+
+[COLOR lime]Placenta Module ver 1.1.1[/COLOR]
+
+
+    - Movie Reviews and Trailers section added
+
+
+
+
+
+
+
+
+[B][COLOR red]2018/01/09[/COLOR][/B]
+
+
+[COLOR lime]Placenta Module ver 1.1.0[/COLOR]
+
+
+    - Next Page bug fixed with TV Show section
+
+
+    - Adjustment for new sections (Moved menu sources to GIT)
+
+
+
+
+
+[B][COLOR red]2018/01/07[/COLOR][/B]
+
+
+[COLOR lime]Placenta ver 1.0.6[/COLOR]
+
+
+    - Added 3 new main menu items
+
+
+    - Fitness Zone, Kids Corner, and Legends in Music
+
+
+[COLOR lime]Placenta Module ver 1.0.9[/COLOR]
+
+
+    - New system for the new menu items added
+
+
+[COLOR lime]Placenta Artwork ver 1.0.3[/COLOR]
+
+
+    - Icons for the new menu items added
+
+
+
+
+
+[B][COLOR red]2018/01/05[/COLOR][/B]
+
+
+[COLOR lime]Placenta ver 1.0.5[/COLOR]
+
+
+    - Updated Settings for changes to scrapers
+
+
+[COLOR lime]Placenta Module ver 1.0.8[/COLOR]
+
+
+    - Scraper updates - Fixed some, added brand new ones, removed some
+
+
+
+
+
+[B][COLOR red]2018/01/01[/COLOR][/B]
+
+
+[COLOR lime]Placenta ver 1.0.4[/COLOR]
+
+
+    - Updated Settings for changes to scrapers
+
+
+    - Added URL Resolver menu item in Tools
+
+
+[COLOR lime]Placenta Module ver 1.0.7[/COLOR]
+
+
+    - Scraper updates - Fixed some, added brand new ones, removed some
+
+
+    - URL Resolver menu item
+
+
+    - Updates to CF Scraper
+
+
+[COLOR lime]Placenta Artwork ver 1.0.1[/COLOR]
+
+
+    - URL Resolver Icon added to each skin
+
+
+
+
+
+[B][COLOR red]2017/12/30[/COLOR][/B]
+
+
+[COLOR lime]Placenta ver 1.0.3[/COLOR]
+
+
+    - Updated Settings for changes to scrapers
+
+
+    - Added setting to set custom color for Unaired Episodes/Seasons
+
+
+[COLOR lime]Placenta Module ver 1.0.6[/COLOR]
+
+
+    - Scraper updates - Huge thanks to the guys doing tests for us
+
+
+    - Added code for custom color for Unaired Episodes/Seasons
+
+
+
+
+
+[B][COLOR red]2017/12/29[/COLOR][/B]
+
+
+[COLOR lime]Placenta ver 1.0.2[/COLOR]
+
+
+    - Updated Settings for changes to scrapers
+
+
+[COLOR lime]Placenta Module ver 1.0.4[/COLOR]
+
+
+    - Moving scrapers around (some sites down, moved out so no longer scraping, etc)
+
+
+[COLOR lime]Placenta Module ver 1.0.5[/COLOR]
+
+
+    - Fixed IMDB Pagination issues plaguing all the other forks
+
+
+
+
+
+[B][COLOR red]2017/12/28[/COLOR][/B]
+
+
+[COLOR lime]Placenta Module ver 1.0.3[/COLOR]
+
+
+    - Fixed IMDB Actor Search
+
+
+
+
+
+[B][COLOR red]2017/12/26[/COLOR][/B]
+
+
+[COLOR lime]Placenta Module ver 1.0.2[/COLOR]
+
+
+    - Fixed 'TV Shows -> Networks' TV Show Listings
+
+
+
+
+
+[B][COLOR red]2017/12/26[/COLOR][/B]
+
+
+[COLOR lime]Placenta ver 1.0.1[/COLOR]
+
+
+    - Added News and Updates menu
+
+
+    - Updated Settings
+
+
+[COLOR lime]Placenta Module ver 1.0.1[/COLOR]
+
+
+    - Updated a couple Scrapers
