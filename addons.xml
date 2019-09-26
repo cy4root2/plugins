@@ -39,7 +39,7 @@ This is a Non-profit resource, organized solely for educational purposes which i
 	</extension>
 </addon>
 
-<addon id="script.module.placenta" name="Placenta Module" version="1.2.2a" provider-name="eam Afterbirth > Fixed version">
+<addon id="script.module.placenta" name="Placenta Module" version="1.2.2b" provider-name="eam Afterbirth > Fixed version">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 	</requires>
@@ -1636,4 +1636,5 @@ Other languages with a great number of subtitles are: Danish, French, Swedish, D
 </addon>
 	
 </addons>
+
 
