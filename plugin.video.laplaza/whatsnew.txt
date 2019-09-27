@@ -1,0 +1,21 @@
+CURRENT STATUS: [COLOR springgreen]Good[/COLOR]
+
+
+
+[COLOR red]Respect For Team Afterbirth[/COLOR]
+
+
+
+[COLOR red]-------------------------------------------------------------------------------------------------------[/COLOR]
+
+
+
+[B][COLOR red]2019/09/27[/COLOR][/B]
+
+[COLOR lime]Laplaza ver 1.0.0.1[/COLOR]
+
+	- Scraper Lipton added
+
+    - Old references fixed
+
+    - Radio added
