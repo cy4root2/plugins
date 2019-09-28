@@ -797,7 +797,7 @@ Fixed: ParadiseHill
     </extension>
 </addon>
 
-<addon id="plugin.video.chucky" name="[COLOR red][B]Chucky[COLOR gold] Video[/B][/COLOR]" provider-name="Cy4Root" version="1.2.0.3a">
+<addon id="plugin.video.chucky" name="[COLOR red][B]Chucky[COLOR gold] Video[/B][/COLOR]" provider-name="Cy4Root" version="1.2.0.3b">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.chucky.artwork" />
