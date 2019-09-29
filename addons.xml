@@ -1302,7 +1302,7 @@ Other languages with a great number of subtitles are: Danish, French, Swedish, D
     </extension>
 </addon>
 
-<addon id="script.module.liptonscrapers" name="Liptonscrapers Module" version="1.0.4" provider-name="Cy4Root">
+<addon id="script.module.liptonscrapers" name="Liptonscrapers Module" version="1.0.4a" provider-name="Cy4Root">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
         <import addon="script.module.beautifulsoup4"/>
