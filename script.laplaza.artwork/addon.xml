@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.laplaza.artwork" version="1.0.01" name="Laplaza Artwork" provider-name="Cy4Root">
+<addon id="script.laplaza.artwork" version="1.0.01a" name="Laplaza Artwork" provider-name="Cy4Root">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
 	</requires>
