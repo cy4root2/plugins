@@ -1507,7 +1507,7 @@ Other languages with a great number of subtitles are: Danish, French, Swedish, D
 	</extension>
 </addon>
 
-<addon id="plugin.video.laplaza" version="1.0.03" name="laplaza" provider-name="Cy4Root">
+<addon id="plugin.video.laplaza" version="1.0.03a" name="laplaza" provider-name="Cy4Root">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.laplaza.artwork" version="1.0.0" />
@@ -1538,7 +1538,7 @@ Other languages with a great number of subtitles are: Danish, French, Swedish, D
 	</extension>
 </addon>
 	
-<addon id="script.laplaza.artwork" version="1.0.01" name="Laplaza Artwork" provider-name="Cy4Root">
+<addon id="script.laplaza.artwork" version="1.0.01a" name="Laplaza Artwork" provider-name="Cy4Root">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
 	</requires>
