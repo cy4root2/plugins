@@ -206,23 +206,6 @@ Fixed: ParadiseHill
     <source>https://github.com/totalrevolution/python-koding/tree/master/script.module.python.koding.aio</source>
   </extension>
 </addon>
-	
-  <addon id="repository.universalscrapers" name="universalscrapers-repository" version="1.0.0" provider-name="universalscrapers">
-        <requires>
-            <import addon="xbmc.addon" version="12.0.0"/>
-        </requires>
-        <extension point="xbmc.addon.repository" name="universalscrapers">
-            <info compressed="false">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/</datadir>
-            <hashes>false</hashes>
-        </extension>
-        <extension point="xbmc.addon.metadata">
-            <summary>Scrape common video host for URL's to be playable in XBMC/Kodi.</summary>
-            <description>carrying on the dream</description>
-            <platform>all</platform>
-        </extension>
-</addon>
 
 <addon id="plugin.close.kodi" name="[COLOR red] Force Close Kodi[/COLOR] " version="3.1.3" provider-name="Based_Skid">
   <requires>
@@ -1255,24 +1238,6 @@ Other languages with a great number of subtitles are: Danish, French, Swedish, D
 </addon>
 
 	
-<addon id="repository.thebackup" name="[COLOR orange]The Backup[/COLOR]" version="2.0.0" provider-name="thebackup">
-    <extension point="xbmc.addon.repository" name="[COLOR orange]The Backup Repository[/COLOR]">
-    <dir>
-        <info compressed="false">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml</info>
-        <checksum>https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml.md5</checksum>
-        <datadir zip="true">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/zips/</datadir>
-    </dir>
-        <info compressed="false">https://raw.githubusercontent.com/thebackup/repository.thebackup/master/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/thebackup/repository.thebackup/master/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/thebackup/repository.thebackup/master/</datadir>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary>The Kodi Backup Repo</summary>
-        <description>I'm Lovin' It</description>
-        <platform>all</platform>
-    </extension>
-</addon>
-	
 <addon id="plugin.video.f4mTester" version="3.0.0" name="F4mTester" provider-name="Shani">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
@@ -1575,7 +1540,96 @@ This is a Non-profit resource, organized solely for educational purposes which i
 	</extension>
 </addon>
 	
-<addon id="repository.cy4root" name="cy4root Repository" version="1.1.11c" provider-name="Cy4Root">
+  <addon id="repository.universalscrapers" name="universalscrapers-repository" version="1.0.0" provider-name="universalscrapers">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="universalscrapers">
+            <info compressed="false">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/</datadir>
+            <hashes>false</hashes>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>Scrape common video host for URL's to be playable in XBMC/Kodi.</summary>
+            <description>carrying on the dream</description>
+            <platform>all</platform>
+        </extension>
+</addon>
+	
+<addon id="repository.jewrepo" name="[COLOR purple]JewRepo[/COLOR]" version="1.5.4" provider-name="JewBMX">
+    <requires>
+        <import addon="xbmc.addon" version="12.0.0"/>
+    </requires>
+    <extension point="xbmc.addon.repository" name="[COLOR purple]JewRepo[/COLOR]">
+        <info compressed="false">https://raw.githubusercontent.com/jewbmx/repo/master/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/jewbmx/repo/master/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/jewbmx/repo/master/zips/</datadir>
+        <hashes>false</hashes>
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/jewbmx/JewBackD/master/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/jewbmx/JewBackD/master/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/jewbmx/JewBackD/master/zips/</datadir>
+        </dir>
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/</datadir>
+        </dir>
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Free the People, Free the World!</summary>
+        <description>JewBMX's Official Repository</description>
+        <platform>all</platform>
+        <genre>movies,usa</genre>
+    </extension>
+</addon>
+	
+<addon id="repository.exodusredux" name="Exodus Redux Repo" version="0.0.8" provider-name="I-A-C">
+	<extension point="xbmc.addon.repository" name="Exodus Redux Repo">
+	<dir>
+        <info compressed="false">https://raw.githubusercontent.com/I-A-C/zips/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/I-A-C/zips/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/I-A-C/zips/master/</datadir>
+	</dir>
+    <dir>
+        <info compressed="false">https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/</datadir>
+    </dir>
+	<dir>
+		<info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
+	</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Exodus Redux is a educational add-on. We do not host any of the contents streamed.</summary>
+		<description lang="en"></description>
+		<platform>all</platform>
+	</extension>
+</addon>
+	
+<addon id="repository.kodil" name=".[COLOR blue].Kodil [/COLOR][COLOR white] Repository [/COLOR]" version="1.3" provider-name="kodil">
+    <extension point="xbmc.addon.repository" name=".Kodil  Repository ">
+        <info compressed="false">https://raw.githubusercontent.com/kodil/kodil/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/kodil/kodil/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/kodil/kodil/master/repo</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>kodisrael repository</summary>
+        <description>kodil repository - the most extensive repository in isrl </description>
+        <description>הריפו של קודישראל - מאגר ההרחבות הגדול והאיכותי בישראל  </description>
+        <platform>all</platform>
+    </extension>
+</addon>
+	
+<addon id="repository.cy4root" name="cy4root Repository" version="1.1.12" provider-name="Cy4Root">
 	<extension point="xbmc.addon.repository" name="Cy4Root">
 	        <dir>		
 			<info compressed="false">https://raw.githubusercontent.com/cy4root/plugins/master/addons.xml</info>
