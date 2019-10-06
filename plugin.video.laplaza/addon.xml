@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.laplaza" version="1.0.05" name="laplaza" provider-name="Cy4Root">
+<addon id="plugin.video.laplaza" version="1.0.05a" name="laplaza" provider-name="Cy4Root">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.laplaza.metadata" version="1.0.0" />
+		<import addon="script.module.liptonscrapers" />
 		<import addon="script.module.resolveurl" />
-        	<import addon="script.module.liptonscrapers" />
 		<import addon="script.module.requests" />
 		<import addon="script.module.metahandler" version="1.0.0" />
+		<import addon="script.module.openscrapers" optional="true" />
         <import addon="plugin.video.youtube"/>
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
