@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.laplaza" version="1.0.05c" name="laplaza" provider-name="Cy4Root">
+<addon id="plugin.video.laplaza" version="1.0.06" name="laplaza" provider-name="Cy4Root">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.laplaza.metadata" version="1.0.0" />
 		<import addon="script.module.liptonscrapers" />
+       	        <import addon="script.module.liptonmeta" version="1.0.0" />
 		<import addon="script.module.resolveurl" />
 		<import addon="script.module.requests" />
 		<import addon="script.module.metahandler" version="1.0.0" />
@@ -16,7 +17,7 @@
 	</extension>
         <extension library="service.py" point="xbmc.service" start="[startup|login]" />
 	<extension point="xbmc.addon.metadata">
-		<description lang="en">[I][B]Laplaza Movies and TV[/B][/I][CR][CR]This addon does not form part of the Kodi Media Centre. Please do not seek assistance with this addon from any of the Official Kodi Support Channels.[CR][CR]The author does not host any of the content in this addon and takes no responsibility for content found.</description>
+		<description lang="en">[I][B]Laplaza Movies and TV (optional) Multi sources options, default not installed[/B][/I][CR][CR]This addon does not form part of the Kodi Media Centre. Please do not seek assistance with this addon from any of the Official Kodi Support Channels.[CR][CR]The author does not host any of the content in this addon and takes no responsibility for content found.</description>
 		<platform>all</platform>
 		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
 		<disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
