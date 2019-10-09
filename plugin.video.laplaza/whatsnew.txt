@@ -1,21 +1,74 @@
 CURRENT STATUS: [COLOR springgreen]Good[/COLOR]
+[B][COLOR orange]Fork of Placenta[/COLOR]
+
+
+[B][COLOR red]Important !!!!
+https://cy4root.github.io/ is no longer current due to authorization issues.
+What to do? First remove the old repository before installing the new one.
+
+new github:
+https://cy4root2.github.io/zip[/COLOR][/B]
 
 
 
-[COLOR red]Respect For Team Afterbirth[/COLOR]
+
+[B][COLOR red]2019/10/09[/COLOR][/B]
+
+[COLOR lime]Laplaza ver 1.0.07[/COLOR]
+
+    -Welcome to my new github https://cy4root2.github.io/zip
+    - Small adjustments in the settings menu
 
 
+[B][COLOR red]2019/10/07[/COLOR][/B]
 
-[COLOR red]-------------------------------------------------------------------------------------------------------[/COLOR]
+[COLOR lime]Laplaza ver 1.0.06[/COLOR]
+
+    -Open scrapers can be switched on, but is not necessary, is an option 
+      (not included by default)
+
+    - The torrent scraper search function has been repaired for the Lipton module.
+
+    - Fixed Module layout and option for open scrapers are arranged differently in the settings menu
+
+[B][COLOR red]2019/10/06[/COLOR][/B]
+
+[COLOR lime]Laplaza ver 1.0.05[/COLOR]
+
+    - Only Real Debrid option added
+    - Extra choice of source options
+    - Duplicate sources are automatically deleted
+
+[B][COLOR red]2019/10/02[/COLOR][/B]
+
+[COLOR lime]Laplaza ver 1.0.04[/COLOR]
+    - TMDB has been added
+    - Settings menu adjusted
+    - Language pack updated
+
+[B][COLOR red]2019/10/01[/COLOR][/B]
+
+[COLOR lime]Laplaza ver 1.0.03[/COLOR]
+    - Menu layout has been adjusted and my movie and 
+    - TV show are now under my tract
 
 
+[B][COLOR red]2019/09/29[/COLOR][/B]
+
+[COLOR lime]Laplaza ver 1.0.02[/COLOR]
+    - Movie trailers have been repaired
+    - Provider settings have been adjusted
+    - Deleted podcast that did not work
+    - Deleted Channels that did not work
+    - Added documentary
+    - Added swift streams (tested)
 
 [B][COLOR red]2019/09/27[/COLOR][/B]
 
-[COLOR lime]Laplaza ver 1.0.0.1[/COLOR]
-
-	- Scraper Lipton added
-
+[COLOR lime]Laplaza ver 1.0.01[/COLOR]
+    - Scraper Lipton added
     - Old references fixed
-
     - Radio added
+
+[COLOR red]Find me on cy4root@gmail.com[/COLOR]
+                  [B][COLOR red]@Cy4Root[/COLOR][/B]
