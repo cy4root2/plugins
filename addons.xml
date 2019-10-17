@@ -1585,7 +1585,7 @@ Other languages with a great number of subtitles are: Danish, French, Swedish, D
 </addon>
 
 
-<addon id="plugin.video.chucky" name="[COLOR red][B]Chucky[COLOR gold] Video[/B][/COLOR]" provider-name="Cy4Root" version="1.2.0.4c">
+<addon id="plugin.video.chucky" name="[COLOR red][B]Chucky[COLOR gold] Video[/B][/COLOR]" provider-name="Cy4Root" version="1.2.0.5">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.chucky.artwork" />
