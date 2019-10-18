@@ -1651,7 +1651,7 @@ Other languages with a great number of subtitles are: Danish, French, Swedish, D
 	</extension>
 </addon>
 	
-<addon id="plugin.video.mirror" name="[COLOR orange][B]MirRoR[COLOR white] Video[/B][/COLOR]" provider-name="Cy4Root" version="2.3.3">
+<addon id="plugin.video.mirror" name="[COLOR orange][B]MirRoR[COLOR white] Video[/B][/COLOR]" provider-name="Cy4Root" version="2.3.3a">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.mirror.artwork" />
