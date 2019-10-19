@@ -1,16 +1,32 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.cy4root" name="cy4root Repository" version="1.0.13a" provider-name="Cy4Root">
-	<extension point="xbmc.addon.repository" name="Cy4Root">
-	        <dir>		
-			<info compressed="false">https://raw.githubusercontent.com/cy4root2/plugins/master/addons.xml</info>
-            		<checksum>https://raw.githubusercontent.com/cy4root2/plugins/master/addons.xml.md5</checksum>
-            		<datadir zip="true">https://raw.githubusercontent.com/cy4root2/plugins/master</datadir>
-			</dir>
+<addon id="plugin.video.laplaza" version="1.0.11a" name="[COLOR orange][B]Laplaza[/B][/COLOR]" provider-name="[COLOR red][B][Cy4Root][/B][/COLOR]">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+		<import addon="script.laplaza.metadata" version="1.0.0" />
+		<import addon="script.module.liptonscrapers" />
+		<import addon="script.module.resolveurl" />
+		<import addon="script.module.requests" />
+		<import addon="script.module.metahandler" version="1.0.0" />
+		<import addon="script.module.openscrapers" optional="true" />
+        <import addon="plugin.video.youtube"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+        <provides>audio</provides>
 	</extension>
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en">Cy4Root Add-on Repository</summary>
-        <description lang="en"></description>
-        <platform>all</platform>
-		<news></news>
-    </extension>
+        <extension library="service.py" point="xbmc.service" start="[startup|login]" />
+	<extension point="xbmc.addon.metadata">
+                <summary lang="en">[COLORblue]Placenta.Fork[/COLOR]</summary>
+		<description lang="en">[I][B]Laplaza Movies and TV (optional) Multi sources options, default not installed[/B][/I][CR][CR]This addon does not form part of the Kodi Media Centre. Please do not seek assistance with this addon from any of the Official Kodi Support Channels.[CR][CR]The author does not host any of the content in this addon and takes no responsibility for content found.</description>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+		<disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+		</assets>
+		<news>
+			Orginal copy Placenta
+		</news>
+	</extension>
 </addon>
