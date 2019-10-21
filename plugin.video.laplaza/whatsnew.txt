@@ -1,16 +1,44 @@
 CURRENT STATUS: [COLOR springgreen]Good[/COLOR]
+
 [B][COLOR orange]Fork of Placenta[/COLOR]
 
 
-[B][COLOR red]Important !!!!
-https://cy4root.github.io/ is no longer current due to authorization issues.
-What to do? First remove the old repository before installing the new one.
+[COLOR green]The latest repository update is version 1.0.12c
+If you do not have this, remove the old and install the master repo back for the update[/COLOR]
 
-new github:
-https://cy4root2.github.io/zip[/COLOR][/B]
+[B][COLOR red]2019/10/21[/COLOR][/B]
+
+[COLOR lime]Laplaza ver 1.0.12[/COLOR]
+    - Providers and open scrapers have been put together
+    - Better and faster search results
+    - Fix of color choice
+
+[B][COLOR red]2019/10/17[/COLOR][/B]
+
+[COLOR lime]Laplaza ver 1.0.11[/COLOR]
+    - The navigator has changed to sport
+    - A news file has a different address
+
+[B][COLOR red]2019/10/12[/COLOR][/B]
+
+[COLOR lime]Laplaza ver 1.0.10[/COLOR]
+    - Navigator zone has been added and now includes swift streams.
+    - From now on you can watch sports in Laplaza
+    - Choice of theme appearance
+    - Tip: Turn off the unused scrapers to gain speed, there are a lot of strong 
+        scrapers in it
 
 
+[B][COLOR red]2019/10/10[/COLOR][/B]
 
+[COLOR lime]Laplaza ver 1.0.09[/COLOR]
+    -Little fix Trakt tv
+    -Sources code adjusted for better search results
+    -Torrents now also work with 4k streams
+    -At source menu you can refine the torrent 
+     and search results. Tip not to open 
+     all sources but only what is needed.
+     enjoy watching
 
 [B][COLOR red]2019/10/09[/COLOR][/B]
 
