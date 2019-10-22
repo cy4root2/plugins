@@ -6,12 +6,22 @@ CURRENT STATUS: [COLOR springgreen]Good[/COLOR]
 [COLOR green]The latest repository update is version 1.0.12c
 If you do not have this, remove the old and install the master repo back for the update[/COLOR]
 
+[B][COLOR red]2019/10/22[/COLOR][/B]
+
+[COLOR lime]Laplaza ver 1.0.13[/COLOR]
+    - Tmdb list adjusted
+    - Theater tmdb adjusted
+    - Main menu structure adjusted
+    - Iptv added
+
 [B][COLOR red]2019/10/21[/COLOR][/B]
 
 [COLOR lime]Laplaza ver 1.0.12[/COLOR]
     - Providers and open scrapers have been put together
     - Better and faster search results
+    - Even more 4k result with lipton module
     - Fix of color choice
+    - Tip: if you want to see the results of 4k, look for the movie Anna (2019)
 
 [B][COLOR red]2019/10/17[/COLOR][/B]
 
