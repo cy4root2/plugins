@@ -1,6 +1,52 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <addons>
+
+<addon id="plugin.video.mirrorv2" name="[COLOR orange][B]MirRoR V2[COLOR white] Video[/B][/COLOR]" provider-name="Cy4Root" version="2.0.01">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+		<import addon="script.mirrorv2.metadata" version="1.0.0" />
+		<import addon="script.module.liptonscrapers" />
+		<import addon="script.module.resolveurl" />
+		<import addon="script.module.requests" />
+		<import addon="script.module.metahandler" version="1.0.0" />
+		<import addon="script.module.openscrapers" optional="true" />
+        <import addon="plugin.video.youtube"/>
+	</requires>
+    <extension library="main.py" point="xbmc.python.pluginsource">
+        <provides>video</provides>
+    </extension>
+    <extension library="service.py" point="xbmc.service" start="[startup|login]" />
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Movies and TV Shows</summary>
+        <description lang="en">Please remember that Mirror is not an official part of the Kodi media player you are running, and therefore is not to be mentioned within official support channels of Kodi, this addon has nothing to do with the media player itself, nor it’s intended use, it is simply a third party plugin which has been added to your system.</description>
+        <disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon.[CR]The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation. </disclaimer>
+        <license>GNU</license>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.gif</icon>
+            <fanart>fanart.gif</fanart>
+            <screenshot>resources/screenshots/screenshot_1.png</screenshot>
+        </assets>
+        <news> </news>
+    </extension>
+</addon>
+	
+<addon id="script.mirrorv2.metadata" version="1.0.02" name="Mirrorv2 Metadata" provider-name="Cy4Root">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<summary>Mirrorv2 Metadata</summary>
+		<description>Mirrorv2 Metadata</description>
+		<platform>all</platform>
+		<assets>
+			<icon>icon.gif</icon>
+		</assets>
+	</extension>
+</addon>
+
 	
 <addon id="plugin.video.openmeta" name="OpenMeta custom version Dutch" version="1.4.9" provider-name="A4K">
 	<requires>
