@@ -1,0 +1,21 @@
+CURRENT STATUS: [COLOR springgreen]Good[/COLOR]
+
+
+[B][COLOR red]2019/10/27[/COLOR][/B]
+ 
+[COLOR lime]MirrorV2 ver 2.0.01[/COLOR]
+
+    - A follow-up version of mirror
+    - Run on multi sources
+    - Maintain TMDb lists daily
+    - Ipv
+    - Youtube
+    - VIP box
+    - In theather TMDb style
+    - TMDb lists are kept daily.
+
+
+[COLOR red]Find me on cy4root@gmail.com[/COLOR]
+                  [B][COLOR red]@Cy4Root[/COLOR][/B]
+
+
