@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.mirrorv2.metadata" version="1.0.02" name="Mirrorv2 Metadata" provider-name="Cy4Root">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<summary>Mirrorv2 Metadata</summary>
+		<description>Mirrorv2 Metadata</description>
+		<platform>all</platform>
+		<assets>
+			<icon>icon.gif</icon>
+		</assets>
+	</extension>
+</addon>
+
+
+
+
+
