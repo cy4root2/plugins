@@ -1629,8 +1629,8 @@ Other languages with a great number of subtitles are: Danish, French, Swedish, D
     <news></news>
     </extension>
 </addon>
-	
-<addon id="plugin.video.sport365.live" name="Sport365" version="2.6.4" provider-name="Bugatsinho">
+
+<addon id="plugin.video.sport365.live" name="Sport365" version="2.6.5" provider-name="Bugatsinho">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.requests" version="2.19.1"/>
@@ -1654,12 +1654,11 @@ Other languages with a great number of subtitles are: Danish, French, Swedish, D
     <icon>icon.png</icon>
     <fanart>fanart.png</fanart>
   </assets>
-  <news>2.6.4 08-10-2019
-- Add new Alternative source
-- Default playback method INPUTSTREAM and F4M for older kodi versions
+  <news>2.6.5 08-10-2019
 - Fix regex for the events and get key for decrypt website streams</news>
   </extension>
 </addon>
+
 	
 <addon id="plugin.video.laplaza" version="1.0.14d" name="[COLOR orange][B]Laplaza[/B][/COLOR]" provider-name="Cy4Root">
 	<requires>
