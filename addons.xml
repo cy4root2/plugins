@@ -343,85 +343,6 @@
 </addon>
 	
 
-<addon id="plugin.video.scrubsv2" name="[COLOR orange]Scrubs v2[/COLOR]" provider-name="JewBMX" version="4.5.9">
-    <requires>
-        <import addon="xbmc.python" version="2.19.0" />
-        <import addon="script.module.scrubsv2" />
-        <import addon="script.scrubsv2.artwork" />
-        <import addon="script.scrubsv2.metadata" />
-        <import addon="script.module.resolveurl" />
-        <import addon="script.module.urlresolver" optional="true" />
-    </requires>
-    <extension library="main.py" point="xbmc.python.pluginsource">
-        <provides>video</provides>
-    </extension>
-    <extension library="service.py" point="xbmc.service" start="[startup|login]" />
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en_US">A Clean Source To Dirty Things...</summary>
-        <description lang="en_US">Movies, Tv Shows, Anime, and What Not. [CR]See Settings for the Help/About tab. [CR]See bottom of Main Menu for Show Changelog Option. [CR]Providers are now sorted different in the settings and all the best normal ones are enabled. [CR]Disabled by Default: Debrid/Prem/Torr and a 'Sloppy' Stack too, Enable the ones you want from these sections in the settings. [CR]Instead of being confused with all those choices half enabled i decided to go another way. [CR]You enable/disable the ones you dont like and let me handle the broken providers. [CR]How it should be :)</description>
-        <disclaimer lang="en_US">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon.[CR]The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.[CR]This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.</disclaimer>
-        <license>Free the People!, Free the World!!</license>
-        <platform>all</platform>
-        <assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-            <screenshot>resources/screenshots/screenshot_1.png</screenshot>
-        </assets>
-        <news>[B] Total CleanUp of EN Providers[/B]: Checked and all good as of 08-24-2019. [CR][B] (If a non-en provider is broken let me know, as i dont bother with em.)[/B] [CR][B] (Please Report Any Issues To Me Directly. Details Are in Settings.)[/B] </news>
-    </extension>
-</addon>
-	
-<addon id="script.module.scrubsv2" name="[COLOR orange]Scrubs v2 Module[/COLOR]" provider-name="JewBMX" version="4.5.7">
-    <requires>
-        <import addon="xbmc.python" version="2.19.0" />
-        <import addon="script.module.beautifulsoup4" />
-        <import addon="script.module.beautifulsoup" />
-        <import addon="script.module.dateutil" />
-        <import addon="script.module.futures" />
-        <import addon="script.module.metahandler" />
-        <import addon="script.module.requests" />
-    </requires>
-    <extension library="lib" point="xbmc.python.module" />
-    <extension point="xbmc.addon.metadata">
-        <summary>Scrubs v2 Module(The Guts)</summary>
-        <description>Scrubs v2 Module(The Guts)</description>
-        <platform>all</platform>
-        <assets>
-            <icon>icon.png</icon>
-        </assets>
-    </extension>
-</addon>
-	
-<addon id="script.scrubsv2.artwork" version="1.4" name="[COLOR orange]Scrubs v2 Artwork[/COLOR]" provider-name="JewBMX">
-    <requires>
-        <import addon="xbmc.python" version="2.19.0"/>
-    </requires>
-    <extension point="xbmc.python.module" library="lib" />
-    <extension point="xbmc.addon.metadata">
-        <summary>Scrubs v2 Artwork</summary>
-        <description>Scrubs v2 Artwork</description>
-        <platform>all</platform>
-        <assets>
-            <icon>icon.png</icon>
-        </assets>
-        <news>Reduced All FileSizes and removed Caps from FolderNames.</news>
-    </extension>
-</addon>
-	
-<addon id="script.scrubsv2.metadata" version="1.2" name="[COLOR orange]Scrubs v2 Metadata[/COLOR]" provider-name="JewBMX">
-	<requires>
-		<import addon="xbmc.python" version="2.19.0"/>
-	</requires>
-	<extension point="xbmc.python.module" library="lib" />
-	<extension point="xbmc.addon.metadata">
-		<summary>Scrubs v2 Metadata</summary>
-		<description>Scrubs v2 Metadata</description>
-		<platform>all</platform>
-		<assets>
-			<icon>icon.jpg</icon>
-		</assets>
-	</extension>
-</addon>
 	
 
 
@@ -736,45 +657,7 @@ Fixed: ParadiseHill
     <news></news>
     </extension>
 </addon>
-	
-<addon id="plugin.video.kiddo" name="[B][COLORdarkgoldenrod]Kid[/COLOR][COLORburlywood]do[/COLOR][/B]" version="4.0.1.2" provider-name="[COLOR gold][B][Brackets][/B][/COLOR]">
-    <requires>
-        <import addon="xbmc.python" version="2.19.0" />
-        <import addon="script.module.universalscrapers" version="1.0.0" />
-        <import addon="script.module.python.koding.aio" version="0.9.6.6" />
-        <import addon="script.module.beautifulsoup" version="3.2.1" />
-        <import addon="script.speedtestnet" version="1.0.0" />
-        <import addon="script.module.feedparser" version="5.1.3"/>
-        <import addon="script.module.requests" version="2.9.1" />
-        <import addon="script.module.addon.common" version="2.0.0" />
-        <import addon="script.module.xmltodict" version="0.9.0" />
-        <import addon="script.module.dateutil" />
-        <!--<import addon="script.module.web-pdb" version="1.0"/>-->
-        <import addon="script.module.resolveurl" />
-        <!--<import addon="script.module.urlresolver" />-->
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>audio video</provides>
-    </extension>
-    <extension point="xbmc.arrakis" library="service.py" start="[login|startup]" />
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en">Special thanks to [COLORgold]NuMbErS[/COLOR]</summary>
-        <description lang="en">[COLORgold]PG - Parental Guidance Suggested - Some Mild Rude Humor. Some Material may not Be Suitable for Children.[/COLOR][CR]The author is not responsible for the use of this addon and does not host or own any content found within this addon.[CR]The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.[CR]The Search process is the same as a search engine with no data actual hosted by the developer.[CR]This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.</description>
-        <disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon.[CR]The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.[CR]This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.</disclaimer>
-        <platform>all</platform>
-        <website/>
-        <news>[COLORcrimson]====[/COLOR][COLORgold]PG - Parental Guidance Suggested - Some Mild Rude Humor. Some Material may not Be Suitable for Children.[/COLOR][COLORcrimson]====[/COLOR]</news>
-        <assets>
-        <icon>icon.png</icon>
-        <icon>search.gif</icon>
-        <fanart>fanart.gif</fanart>
-        <screenshot>resources/media/screenshot-01.png</screenshot>
-        <screenshot>resources/media/screenshot-02.png</screenshot>
-        <screenshot>resources/media/screenshot-03.png</screenshot>
-        </assets>
-        <reuselanguageinvoker>false</reuselanguageinvoker>
-    </extension>
-</addon>
+
 		
 <addon
   id="plugin.video.SportsDevil"
@@ -849,59 +732,7 @@ Fixed: ParadiseHill
   </extension>
 </addon>
 	
-<addon id="script.tempest.artwork" version="1.0.2" name="Tempest Artwork" provider-name="Tempest">
-	<requires>
-		<import addon="xbmc.python" version="2.19.0"/>
-	</requires>
-	<extension point="xbmc.python.module" library="lib" />
-	<extension point="xbmc.addon.metadata">
-		<summary>Themes for the Tempest Addon</summary>
-		<description></description>
-		<platform>all</platform>
-	</extension>
-</addon>
 
-<addon id="plugin.video.tempest" version="4.0.90" name="Tempest" provider-name="Tempest">
-	<requires>
-		<import addon="xbmc.python" version="2.19.0" />
-		<import addon="script.tempest.artwork" />
-		<import addon="script.tempest.metadata" />
-		<import addon="script.module.urlresolver" />
-		<import addon="script.module.requests" />
-		<import addon="script.module.metahandler" />
-		<import addon="script.module.beautifulsoup4" />
-		<import addon="plugin.video.youtube"/>
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="tempest.py">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.service" library="service.py" start="startup" />
-	<extension point="xbmc.addon.metadata">
-		<description lang="en">[I][B]Tempest Movies and TV[/B][/I][CR][CR]This addon does not form part of the Kodi Media Centre. Please do not seek assistance with this addon from any of the Official Kodi Support Channels.[CR][CR]The author does not host any of the content in this addon and takes no responsibility for content found.</description>
-		<platform>all</platform>
-		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
-		<disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
-		<assets>
-			<icon>icon.png</icon>
-			<fanart>fanart.jpg</fanart>
-		</assets>
-		<news>
-			v1.0.0 - Initial version.
-		</news>
-	</extension>
-</addon>
-	
-<addon id="script.tempest.metadata" version="1.0.1" name="Tempest Metadata" provider-name="Tempest">
-	<requires>
-		<import addon="xbmc.python" version="2.19.0"/>
-	</requires>
-	<extension point="xbmc.python.module" library="lib" />
-	<extension point="xbmc.addon.metadata">
-		<summary>Metadata for the Tempest Addon</summary>
-		<description>Metadata for Tempest are maintained separately to make distribution of the the addon itself easier/faster.</description>
-		<platform>all</platform>
-	</extension>
-</addon>
 	
 <addon id="script.trakt" name="Trakt" version="3.2.4" provider-name="Trakt.tv, Razzeee">
 	<requires>
@@ -1723,80 +1554,10 @@ Other languages with a great number of subtitles are: Danish, French, Swedish, D
             <platform>all</platform>
         </extension>
 </addon>
+
+
 	
-<addon id="repository.jewrepo" name="[COLOR purple]JewRepo[/COLOR]" version="1.5.4" provider-name="JewBMX">
-    <requires>
-        <import addon="xbmc.addon" version="12.0.0"/>
-    </requires>
-    <extension point="xbmc.addon.repository" name="[COLOR purple]JewRepo[/COLOR]">
-        <info compressed="false">https://raw.githubusercontent.com/jewbmx/repo/master/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/jewbmx/repo/master/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/jewbmx/repo/master/zips/</datadir>
-        <hashes>false</hashes>
-        <dir>
-            <info compressed="false">https://raw.githubusercontent.com/jewbmx/JewBackD/master/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/jewbmx/JewBackD/master/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/jewbmx/JewBackD/master/zips/</datadir>
-        </dir>
-        <dir>
-            <info compressed="false">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/</datadir>
-        </dir>
-        <dir>
-            <info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
-        </dir>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary>Free the People, Free the World!</summary>
-        <description>JewBMX's Official Repository</description>
-        <platform>all</platform>
-        <genre>movies,usa</genre>
-    </extension>
-</addon>
-	
-<addon id="repository.exodusredux" name="Exodus Redux Repo" version="0.0.8" provider-name="I-A-C">
-	<extension point="xbmc.addon.repository" name="Exodus Redux Repo">
-	<dir>
-        <info compressed="false">https://raw.githubusercontent.com/I-A-C/zips/master/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/I-A-C/zips/master/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/I-A-C/zips/master/</datadir>
-	</dir>
-    <dir>
-        <info compressed="false">https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/</datadir>
-    </dir>
-	<dir>
-		<info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
-	</dir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Exodus Redux is a educational add-on. We do not host any of the contents streamed.</summary>
-		<description lang="en"></description>
-		<platform>all</platform>
-	</extension>
-</addon>
-	
-<addon id="repository.kodil" name=".[COLOR blue].Kodil [/COLOR][COLOR white] Repository [/COLOR]" version="1.3" provider-name="kodil">
-    <extension point="xbmc.addon.repository" name=".Kodil  Repository ">
-        <info compressed="false">https://raw.githubusercontent.com/kodil/kodil/master/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/kodil/kodil/master/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/kodil/kodil/master/repo</datadir>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary>kodisrael repository</summary>
-        <description>kodil repository - the most extensive repository in isrl </description>
-        <description>הריפו של קודישראל - מאגר ההרחבות הגדול והאיכותי בישראל  </description>
-        <platform>all</platform>
-    </extension>
-</addon>
-	
-<addon id="repository.cy4root" name="cy4root Repository" version="1.1.01" provider-name="Cy4Root">
+<addon id="repository.cy4root" name="cy4root Repository" version="1.1.02" provider-name="Cy4Root">
 	<extension point="xbmc.addon.repository" name="Cy4Root">
 	        <dir>		
 			<info compressed="false">https://raw.githubusercontent.com/cy4root2/plugins/master/addons.xml</info>
