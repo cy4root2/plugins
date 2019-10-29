@@ -1491,53 +1491,6 @@ Other languages with a great number of subtitles are: Danish, French, Swedish, D
 </addon>
 
 	
-<addon id="plugin.video.laplaza" version="1.0.14d" name="[COLOR orange][B]Laplaza[/B][/COLOR]" provider-name="Cy4Root">
-	<requires>
-		<import addon="xbmc.python" version="2.19.0" />
-		<import addon="script.laplaza.metadata" version="1.0.0" />
-		<import addon="script.module.liptonscrapers" />
-		<import addon="script.module.resolveurl" />
-		<import addon="script.module.requests" />
-		<import addon="script.module.metahandler" version="1.0.0" />
-		<import addon="script.module.openscrapers" optional="true" />
-        <import addon="plugin.video.youtube"/>
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="default.py">
-		<provides>video</provides>
-        <provides>audio</provides>
-	</extension>
-        <extension library="service.py" point="xbmc.service" start="[startup|login]" />
-	<extension point="xbmc.addon.metadata">
-                <summary lang="en">[COLORblue]Placenta.Fork[/COLOR]</summary>
-		<description lang="en">[I][B]Laplaza Movies and TV (optional) Multi sources options, default not installed[/B][/I][CR][CR]This addon does not form part of the Kodi Media Centre. Please do not seek assistance with this addon from any of the Official Kodi Support Channels.[CR][CR]The author does not host any of the content in this addon and takes no responsibility for content found.</description>
-		<platform>all</platform>
-		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
-		<disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
-		<assets>
-			<icon>icon.png</icon>
-			<fanart>fanart.jpg</fanart>
-		</assets>
-		<news>
-			Orginal copy Placenta
-		</news>
-	</extension>
-</addon>
-	
-<addon id="script.laplaza.metadata" version="1.0.02" name="Laplaza Metadata" provider-name="Cy4Root">
-	<requires>
-		<import addon="xbmc.python" version="2.19.0"/>
-	</requires>
-	<extension point="xbmc.python.module" library="lib" />
-	<extension point="xbmc.addon.metadata">
-		<summary>Laplaza Metadata</summary>
-		<description>Laplaza Metadata</description>
-		<platform>all</platform>
-		<assets>
-			<icon>icon.png</icon>
-		</assets>
-	</extension>
-</addon>
-	
   <addon id="repository.universalscrapers" name="universalscrapers-repository" version="1.0.0" provider-name="universalscrapers">
         <requires>
             <import addon="xbmc.addon" version="12.0.0"/>
