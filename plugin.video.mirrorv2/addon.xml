@@ -7,8 +7,7 @@
 		<import addon="script.module.resolveurl" />
 		<import addon="script.module.requests" />
 		<import addon="script.module.metahandler" version="1.0.0" />
-		<import addon="script.module.openscrapers" optional="true" />
-        <import addon="plugin.video.youtube"/>
+        	<import addon="plugin.video.youtube"/>
 	</requires>
     <extension library="main.py" point="xbmc.python.pluginsource">
         <provides>video</provides>
