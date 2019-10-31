@@ -2,6 +2,74 @@
 
 <addons>
 
+<addon id="plugin.video.chucky" name="[COLOR red][B]Chucky[COLOR gold] Video[/B][/COLOR]" provider-name="Cy4Root" version="1.2.0.4b">
+    <requires>
+        <import addon="xbmc.python" version="2.19.0" />
+        <import addon="script.chucky.artwork" />
+        <import addon="script.chucky.metadata" />
+        <import addon="script.module.liptonscrapers" />
+        <import addon="script.module.resolveurl" />
+        <import addon="script.module.metahandler" />
+        <import addon="script.module.requests" />
+    </requires>
+    <extension library="main.py" point="xbmc.python.pluginsource">
+        <provides>video</provides>
+    </extension>
+    <extension library="service.py" point="xbmc.service" start="[startup|login]" />
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Movies and TvShows</summary>
+        <description lang="en">Based on 13Clowns and Exodus # Liptonscrapers or build providers choice # GNU license</description>
+        <disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon.[CR]The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation. </disclaimer>
+        <license>GNU</license>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.gif</icon>
+            <fanart>fanart.gif</fanart>
+            <screenshot>resources/screenshots/screenshot_1.png</screenshot>
+        </assets>
+        <news> </news>
+    </extension>
+</addon>
+
+<addon id="script.chucky.artwork" version="5.1.3a" name="[B][COLOR red]chucky[/COLOR] Artwork[/B]" provider-name="Cy4Root">
+    <requires>
+        <import addon="xbmc.python" version="2.19.0"/>
+    </requires>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.addon.metadata">
+    <summary lang="en">[B][COLOR red]chucky[/COLOR] Artwork[/B]the best stuff.</summary>
+    <description lang="en">This addon does not form part of the Kodi Media Centre. Please do not seek assistance with this addon from any of the Official Kodi Support Channels.The author does not host any of the content in this addon and takes no responsibility for content found.</description>
+    <disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon. The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation. This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works</disclaimer>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+    <assets>
+        <icon>icon.gif</icon>
+        <fanart></fanart>
+        <screenshot></screenshot>
+        <screenshot></screenshot>
+        <screenshot></screenshot>
+    </assets>
+    <news></news>
+    </extension>
+</addon>
+	
+<addon id="script.chucky.metadata" version="5.1.0a" name="[COLOR red]Chucky Metadata[/COLOR]" provider-name="Cy4Root">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<summary>Chucky Metadata</summary>
+		<description>Chucky Metadata</description>
+		<platform>all</platform>
+		<assets>
+			<icon>icon.gif</icon>
+		</assets>
+	</extension>
+</addon>
+
+
+
 <addon id="plugin.video.mirrorv2" name="[COLOR orange][B]MirRoR V2[COLOR white] Video[/B][/COLOR]" provider-name="Cy4Root" version="2.0.02d">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
@@ -341,58 +409,7 @@
 	<news></news>
   </extension>
 </addon>
-	
 
-	
-
-
-<addon id="script.module.resolveurl.xxx" version="2.0.03" name="Adult Resolver SMR Extension" provider-name="jsergio, Echo Coder">
-	<requires>
-		<import addon="xbmc.python" version="2.1.0"/>
-        <import addon="script.module.resolveurl" version="5.0.00" />
-	</requires>
-	<extension point="xbmc.python.module" library="lib" />
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Resolve adult video host URL's to be playable in XBMC/Kodi.</summary>
-		<description lang="en">Resolve adult video host URL's to be playable in XBMC/Kodi.</description>
-		<platform>all</platform>
-	</extension>
-</addon>
-
-	
-<addon id="plugin.video.bwg"
-       name="Bonecrusher White Goo"
-       version="1.1.67"
-       provider-name="BoneCrusher A mod of  WhiteGoo, holisticdioxide">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-        <import addon="script.module.resolveurl" version="5.0.00"/>
-        <import addon="script.module.resolveurl.xxx" version="2.0.01"/>
-        <import addon="script.video.F4mProxy" version="2.5.7" />
-		<import addon="script.module.requests" />
-
-    </requires>
-    <extension point="xbmc.python.pluginsource"
-               library="default.py">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <platform>all</platform>
-        <license>GPL 2.0</license>
-        <summary lang="en">Watch [COLOR red][B]ADULT[/B][/COLOR] Movies with Bonecrusher White Goo</summary>
-        <description lang="en">Watch [COLOR red][B]ADULT[/B][/COLOR] Movies with Bonecrusher White Goo</description>
-		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider. DMCA - holisticdioxide@protonmail.com</disclaimer>
-		<assets>
-			<icon>icon.png</icon>
-			<fanart>fanart.jpg</fanart>
-		</assets>
-        <news>[B]Version 1.1.67[/B]
-Fixed: WatchXXXFree
-Fixed: YesPornPlease
-Fixed: ParadiseHill
-</news>
-    </extension>
-</addon>
 	
 <addon id="script.module.python.koding.aio"
    name="Python Koding AIO"
@@ -501,31 +518,6 @@ Fixed: ParadiseHill
   </extension>
 </addon>
 	
-<addon id="plugin.video.jizzplanet" name="Jizz Planet" version="2.1.0" provider-name="Jizzplanet.com">
-	<requires>
-		<import addon="xbmc.python" version="2.1.0" />
-		<import addon="script.module.pyxbmct" version="1.1.4" />
-		<import addon="script.module.resolveurl" version="5.0.00" />
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="default.py">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Jizz Planet</summary>
-		<description lang="en">Unofficial A-Z Adult Addon by Jizzplanet.com.</description>
-		<news>Version2</news>
-		<assets>
-			<icon>icon.png</icon>
-			<fanart>fanart.jpg</fanart>
-			<screenshot>resources/screenshots/screenshot-01.jpg</screenshot>
-			<screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
-			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
-		</assets>
-		<platform>all</platform>
-		<forum></forum>
-		<website></website>
-	</extension>
-</addon>
 	
 <addon id="script.module.universalscrapers" name="Universal Scrapers" version="1.2.0" provider-name="Team Universal">
     <requires>
@@ -553,110 +545,6 @@ Fixed: ParadiseHill
         </extension>
 </addon>
 	
-<addon id="script.clownsreplica.metadata" version="0.0.4" name="[B][COLOR red]Clown's Replica[/COLOR] Metadata[/B]" provider-name="[B][COLOR cyan]Mr.unknown[/COLOR][/B]">
-    <requires>
-        <import addon="xbmc.python" version="2.19.0"/>
-    </requires>
-    <extension point="xbmc.python.module" library="lib" />
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en">[B][COLOR red]Clown's Replica[/COLOR] Metadata[/B] is a free portal for circus freaks to see the best stuff.</summary>
-    <description lang="en">This addon does not form part of the Kodi Media Centre. Please do not seek assistance with this addon from any of the Official Kodi Support Channels.The author does not host any of the content in this addon and takes no responsibility for content found.</description>
-    <disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon. The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation. This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works</disclaimer>
-    <platform>all</platform>
-    <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
-    <assets>
-        <icon>icon.png</icon>
-        <fanart></fanart>
-        <screenshot></screenshot>
-        <screenshot></screenshot>
-        <screenshot></screenshot>
-    </assets>
-    <news></news>
-    </extension>
-</addon>
-	
-<addon id="script.clownsreplica.artwork" version="0.0.4b" name="[B][COLOR red]Clown's Replica[/COLOR] Artwork[/B]" provider-name="[B][COLOR cyan]Mr.unknown[/COLOR][/B]">
-    <requires>
-        <import addon="xbmc.python" version="2.19.0"/>
-    </requires>
-    <extension point="xbmc.python.module" library="lib" />
-    <extension point="xbmc.addon.metadata">
-    <summary lang="en">[B][COLOR red]Clown's Replica[/COLOR] Artwork[/B] is a free portal for circus freaks to see the best stuff.</summary>
-    <description lang="en">This addon does not form part of the Kodi Media Centre. Please do not seek assistance with this addon from any of the Official Kodi Support Channels.The author does not host any of the content in this addon and takes no responsibility for content found.</description>
-    <disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon. The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation. This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works</disclaimer>
-    <platform>all</platform>
-    <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
-    <assets>
-      <icon>icon.png</icon>
-      <icon>icon.gif</icon>
-      <fanart>fanart.jpg</fanart>
-        <screenshot></screenshot>
-        <screenshot></screenshot>
-        <screenshot></screenshot>
-    </assets>
-    <news></news>
-    </extension>
-</addon>
-	
-<addon id="plugin.video.clownsreplica" version="0.3.4a" name="[B][COLOR yellow]Clown's Replica[/COLOR][/B]" provider-name="[B][COLOR cyan]Mr.unknown[/COLOR][/B]">
-   <requires>
-        <import addon="xbmc.python" version="2.19.0" />
-        <import addon="script.module.clownsreplica" />
-        <import addon="script.clownsreplica.artwork" />
-        <import addon="script.clownsreplica.metadata" />
-        <import addon="script.module.resolveurl" />
-        <import addon="script.module.requests" />
-        <import addon="script.module.metahandler" />
-        <import addon="plugin.video.youtube" />
-        <import addon="service.subloader" />
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="clownsreplica.py">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.service" library="service.py" start="startup" />
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en">[B][COLOR red]Clown's Replica[/COLOR] Video[/B] is a free portal for circus freaks to see the best stuff.</summary>
-        <description lang="en">This addon does not form part of the Kodi Media Centre. Please do not seek assistance with this addon from any of the Official Kodi Support Channels.The author does not host any of the content in this addon and takes no responsibility for content found.</description>
-        <disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon. The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation. This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works</disclaimer>
-    <platform>all</platform>
-    <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
-    <assets>
-        <icon>icon.png</icon>
-        <icon>icon.gif</icon>
-        <fanart>fanart.jpg</fanart>
-        <screenshot>resources/screenshots/1.png</screenshot>
-        <screenshot>resources/screenshots/2.png</screenshot>
-    </assets>
-    <news></news>
-    </extension>
-</addon>
-
-<addon id="script.module.clownsreplica" version="0.3.4a" name="[B][COLOR red]Clown's Replica[/COLOR]Module[/B]" provider-name="[B][COLOR cyan]Mr.unknown[/COLOR][/B]">
-    <requires>
-        <import addon="xbmc.python" version="2.19.0" />
-        <import addon="script.module.beautifulsoup4" />
-        <import addon="script.module.dateutil" />
-        <import addon="script.module.futures" />
-        <import addon="script.module.requests" />
-    </requires>
-    <extension point="xbmc.python.module" library="lib" />
-    <extension point="xbmc.addon.metadata">
-    <summary lang="en">[B][COLOR red]Clown's Replica[/COLOR] Script.Module[/B] is a free portal for circus freaks to see the best stuff.</summary>
-    <description lang="en">This addon does not form part of the Kodi Media Centre. Please do not seek assistance with this addon from any of the Official Kodi Support Channels.The author does not host any of the content in this addon and takes no responsibility for content found.</description>
-    <disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon. The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation. This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works</disclaimer>
-    <platform>all</platform>
-    <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
-    <assets>
-      <icon>icon.png</icon>
-      <icon>icon.gif</icon>
-      <fanart>fanart.jpg</fanart>
-        <screenshot></screenshot>
-        <screenshot></screenshot>
-        <screenshot></screenshot>
-    </assets>
-    <news></news>
-    </extension>
-</addon>
 
 		
 <addon
@@ -1510,7 +1398,7 @@ Other languages with a great number of subtitles are: Danish, French, Swedish, D
 
 
 	
-<addon id="repository.cy4root" name="cy4root Repository" version="1.1.04" provider-name="Cy4Root">
+<addon id="repository.cy4root" name="cy4root Repository" version="1.1.05" provider-name="Cy4Root">
 	<extension point="xbmc.addon.repository" name="Cy4Root">
 	        <dir>		
 			<info compressed="false">https://raw.githubusercontent.com/cy4root2/plugins/master/addons.xml</info>
