@@ -1,5 +1,18 @@
-CURRENT STATUS: [COLOR springgreen]Good[/COLOR]
+[B][COLOR red]2019/10/31[/COLOR][/B]
+ 
+[COLOR lime]MirrorV2 ver 2.0.03[/COLOR]
 
+    - added 13 clowns style movie and tv show
+    - Online news icon renew
+    - little fixed
+
+[B][COLOR red]2019/10/29[/COLOR][/B]
+ 
+[COLOR lime]MirrorV2 ver 2.0.02[/COLOR]
+
+    - 4k direct Movies added
+    - Random Movies funtion added
+    - Renew Proxy settings
 
 [B][COLOR red]2019/10/27[/COLOR][/B]
  
@@ -12,10 +25,8 @@ CURRENT STATUS: [COLOR springgreen]Good[/COLOR]
     - Youtube
     - VIP box
     - In theather TMDb style
-    - TMDb lists are kept daily.
+    
 
 
 [COLOR red]Find me on cy4root@gmail.com[/COLOR]
                   [B][COLOR red]@Cy4Root[/COLOR][/B]
-
-
