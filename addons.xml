@@ -68,7 +68,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.mirrorv2" name="[COLOR orange][B]MirRoR V2[COLOR white] Video[/B][/COLOR]" provider-name="Cy4Root" version="2.0.04d">
+<addon id="plugin.video.mirrorv2" name="[COLOR orange][B]MirRoR V2[COLOR white] Video[/B][/COLOR]" provider-name="Cy4Root" version="2.0.04e">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.mirrorv2.metadata" version="1.0.0" />
