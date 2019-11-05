@@ -116,7 +116,7 @@
 </addon>
 
 
-<addon id="plugin.video.mirrorv2" name="[COLOR orange][B]MirRoR V2[COLOR white] Video[/B][/COLOR]" provider-name="Cy4Root" version="2.0.06a">
+<addon id="plugin.video.mirrorv2" name="[COLOR orange][B]MirRoR V2[COLOR white] Video[/B][/COLOR]" provider-name="Cy4Root" version="2.0.06b">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.mirrorv2.metadata" />
@@ -1445,7 +1445,7 @@ Other languages with a great number of subtitles are: Danish, French, Swedish, D
 
 
 	
-<addon id="repository.cy4root" name="cy4root Repository" version="1.1.07a" provider-name="Cy4Root">
+<addon id="repository.cy4root" name="cy4root Repository" version="1.1.07b" provider-name="Cy4Root">
 	<extension point="xbmc.addon.repository" name="Cy4Root">
 	        <dir>		
 			<info compressed="false">https://raw.githubusercontent.com/cy4root2/plugins/master/addons.xml</info>
