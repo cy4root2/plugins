@@ -146,6 +146,7 @@
     </extension>
 </addon>
 	
+	
 <addon id="script.mirrorv2.metadata" version="1.0.02" name="Mirrorv2 Metadata" provider-name="Cy4Root">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
