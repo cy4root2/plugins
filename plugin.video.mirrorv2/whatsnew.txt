@@ -1,5 +1,37 @@
-[B][COLOR red]2019/10/31[/COLOR][/B]
+[B][COLOR orange]Last repository 1.1.07b[/COLOR][/B]
+
+[B][COLOR red]I repaired my old Lipton Module and was tested on Windows Linux Android.
+This has been added to the sources list again
+Only the first time you have to click 2 or 3 times on a movie before the module is activated[/COLOR][/B]
+
+
+[B][COLOR red]2019/11/05[/COLOR][/B]
  
+[COLOR lime]MirrorV2 ver 2.0.06[/COLOR]
+
+    - things added to vipbox
+    - added Sportowo
+    - fixed only adult 
+    - various repairs
+
+
+[B][COLOR red]2019/11/03[/COLOR][/B]
+ 
+[COLOR lime]MirrorV2 ver 2.0.05[/COLOR]
+
+    - added multisources (openscrapers)
+    - various repairs
+
+[B][COLOR red]2019/11/02[/COLOR][/B]
+ 
+[COLOR lime]MirrorV2 ver 2.0.04[/COLOR]
+
+    - Lipton module had problems with windows user, has been fixed
+    - New 4k 1 click movies
+    - little fixed
+
+[B][COLOR red]2019/10/29[/COLOR][/B]
+
 [COLOR lime]MirrorV2 ver 2.0.03[/COLOR]
 
     - added 13 clowns style movie and tv show

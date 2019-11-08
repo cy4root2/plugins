@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.mirrorv2" name="[COLOR orange][B]MirRoR V2[COLOR white] Video[/B][/COLOR]" provider-name="Cy4Root" version="2.0.06g">
+<addon id="plugin.video.mirrorv2" name="[COLOR orange][B]MirRoR V2[COLOR white] Video[/B][/COLOR]" provider-name="Cy4Root" version="2.0.07">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.mirrorv2.metadata" />
@@ -16,15 +16,15 @@
     <extension library="service.py" point="xbmc.service" start="[startup|login]" />
     <extension point="xbmc.addon.metadata">
         <summary lang="en">Movies and TV Shows</summary>
-        <description lang="en">Please remember that Mirror is not an official part of the Kodi media player you are running, and therefore is not to be mentioned within official support channels of Kodi, this addon has nothing to do with the media player itself, nor it’s intended use, it is simply a third party plugin which has been added to your system.</description>
-        <disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon.[CR]The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation. </disclaimer>
+        <description lang="en">[B]MirrorV2[/B][CR] [B]***Multi Sources Edition***[/B][CR][CR]This addon does not form part of the Kodi Media Centre. Please do not seek assistance with this addon from any of the Official Kodi Support Channels.[CR][CR]The author does not host any of the content in this addon and takes no responsibility for content found.</description>
+        <disclaimer lang="en">The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon.[CR]The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation. </disclaimer>
         <license>GNU</license>
         <platform>all</platform>
         <assets>
             <icon>icon.gif</icon>
             <fanart>fanart.gif</fanart>
-            <screenshot>resources/screenshots/screenshot_1.png</screenshot>
+            <screenshot></screenshot>
         </assets>
-        <news> </news>
+        <news>v2.0.07 - German language added </news>
     </extension>
 </addon>
