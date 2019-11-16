@@ -89,7 +89,7 @@ This is a Non-profit resource, organized solely for educational purposes which i
     </extension>
 </addon>
 
-<addon id="plugin.video.exodus" version="8.2.5a" name="Exodus" provider-name="Exodus">
+<addon id="plugin.video.exodus" version="8.2.5b" name="Exodus" provider-name="Exodus">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.exodus" />
