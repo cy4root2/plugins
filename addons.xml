@@ -8,6 +8,7 @@
         <import addon="script.module.scrubsv2" />
         <import addon="script.scrubsv2.artwork" />
         <import addon="script.module.resolveurl" />
+	<import addon="script.module.openscrapers" />
         <import addon="script.module.urlresolver" optional="true" />
     </requires>
     <extension library="main.py" point="xbmc.python.pluginsource">
@@ -28,8 +29,7 @@
         <news>[B] Total CleanUp of EN Providers[/B]: Checked and all good as of 08-24-2019. [CR][B] (If a non-en provider is broken let me know, as i dont bother with em.)[/B] [CR][B] (Please Report Any Issues To Me Directly. Details Are in Settings.)[/B] </news>
     </extension>
 </addon>
-	
-	
+		
 <addon id="script.module.scrubsv2" name="[COLOR orange]Scrubs v2 Module[/COLOR]" provider-name="JewBMX" version="4.6.3">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
