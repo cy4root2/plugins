@@ -5,6 +5,7 @@
         <import addon="script.module.scrubsv2" />
         <import addon="script.scrubsv2.artwork" />
         <import addon="script.module.resolveurl" />
+	<import addon="script.module.openscrapers" />
         <import addon="script.module.urlresolver" optional="true" />
     </requires>
     <extension library="main.py" point="xbmc.python.pluginsource">
