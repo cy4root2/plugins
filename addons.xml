@@ -29,6 +29,7 @@
     </extension>
 </addon>
 	
+	
 <addon id="script.module.scrubsv2" name="[COLOR orange]Scrubs v2 Module[/COLOR]" provider-name="JewBMX" version="4.6.3">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
