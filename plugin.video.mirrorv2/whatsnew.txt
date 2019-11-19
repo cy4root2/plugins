@@ -1,9 +1,30 @@
+
 [B][COLOR orange]Last repository 1.1.07b[/COLOR][/B]
 
-[B][COLOR red]I repaired my old Lipton Module and was tested on Windows Linux Android.
-This has been added to the sources list again
-Only the first time you have to click 2 or 3 times on a movie before the module is activated[/COLOR][/B]
 
+
+
+[B][COLOR red]2019/11/12[/COLOR][/B]
+ 
+[COLOR lime]MirrorV2 ver 2.0.09[/COLOR]
+
+    - Replace TMDb list for Box Office
+    - Added lists to Box Office
+
+[B][COLOR red]2019/11/12[/COLOR][/B]
+ 
+[COLOR lime]MirrorV2 ver 2.0.08[/COLOR]
+
+    - various tested
+   
+
+[B][COLOR red]2019/11/08[/COLOR][/B]
+ 
+[COLOR lime]MirrorV2 ver 2.0.07[/COLOR]
+
+    - German language added
+    - Checked everything for any errors
+    - Multi sources tested
 
 [B][COLOR red]2019/11/05[/COLOR][/B]
  
@@ -36,15 +57,16 @@ Only the first time you have to click 2 or 3 times on a movie before the module 
 
     - added 13 clowns style movie and tv show
     - Online news icon renew
+	- 4k direct Movies added
+    - Random Movies funtion added
+    - Renew Proxy settings
     - little fixed
 
 [B][COLOR red]2019/10/29[/COLOR][/B]
  
 [COLOR lime]MirrorV2 ver 2.0.02[/COLOR]
 
-    - 4k direct Movies added
-    - Random Movies funtion added
-    - Renew Proxy settings
+    - various tested
 
 [B][COLOR red]2019/10/27[/COLOR][/B]
  
