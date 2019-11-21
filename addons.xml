@@ -248,7 +248,7 @@
 	
 <addon id="metadata.tvdb.com"
        name="The TVDB"
-       version="3.0.16"
+       version="3.2.0"
        provider-name="Team Kodi">
   <requires>
     <import addon="xbmc.metadata" version="2.1.0"/>
