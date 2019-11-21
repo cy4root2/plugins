@@ -1,8 +1,12 @@
+[B][COLOR orange]Last repository 1.1.10[/COLOR][/B]
 
-[B][COLOR orange]Last repository 1.1.07b[/COLOR][/B]
+[B][COLOR red]2019/11/19[/COLOR][/B]
 
-
-
+[COLOR lime]MirrorV2 ver 2.0.10[/COLOR]
+    - Box Office updated added: More Genere and Movie selection list IMDb
+    - Checked everything and cleaned up the necessary.
+    - Cotrole implemented the new TVDb change
+    - Minor repairs.
 
 [B][COLOR red]2019/11/12[/COLOR][/B]
  
@@ -17,7 +21,6 @@
 
     - various tested
    
-
 [B][COLOR red]2019/11/08[/COLOR][/B]
  
 [COLOR lime]MirrorV2 ver 2.0.07[/COLOR]
