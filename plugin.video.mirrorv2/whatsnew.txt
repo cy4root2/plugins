@@ -1,89 +1,13 @@
-[B][COLOR orange]Last repository 1.1.10[/COLOR][/B]
 
-[B][COLOR red]2019/11/19[/COLOR][/B]
+[B][COLOR orange]What's new !!![/COLOR][/B]
 
-[COLOR lime]MirrorV2 ver 2.0.10[/COLOR]
-    - Box Office updated added: More Genere and Movie selection list IMDb
-    - Checked everything and cleaned up the necessary.
-    - Cotrole implemented the new TVDb change
-    - Minor repairs.
+[B][COLOR green]Date of update: 23-11-2019
+---------------------------
 
-[B][COLOR red]2019/11/12[/COLOR][/B]
- 
-[COLOR lime]MirrorV2 ver 2.0.09[/COLOR]
+Version 2.0.11
 
-    - Replace TMDb list for Box Office
-    - Added lists to Box Office
+In this new version, open scrapers is set as standard because there are problems with some Android devices.
+At settings providers you can also return to the Lipton module.
+For problems you can always email me.
 
-[B][COLOR red]2019/11/12[/COLOR][/B]
- 
-[COLOR lime]MirrorV2 ver 2.0.08[/COLOR]
-
-    - various tested
-   
-[B][COLOR red]2019/11/08[/COLOR][/B]
- 
-[COLOR lime]MirrorV2 ver 2.0.07[/COLOR]
-
-    - German language added
-    - Checked everything for any errors
-    - Multi sources tested
-
-[B][COLOR red]2019/11/05[/COLOR][/B]
- 
-[COLOR lime]MirrorV2 ver 2.0.06[/COLOR]
-
-    - things added to vipbox
-    - added Sportowo
-    - fixed only adult 
-    - various repairs
-
-
-[B][COLOR red]2019/11/03[/COLOR][/B]
- 
-[COLOR lime]MirrorV2 ver 2.0.05[/COLOR]
-
-    - added multisources (openscrapers)
-    - various repairs
-
-[B][COLOR red]2019/11/02[/COLOR][/B]
- 
-[COLOR lime]MirrorV2 ver 2.0.04[/COLOR]
-
-    - Lipton module had problems with windows user, has been fixed
-    - New 4k 1 click movies
-    - little fixed
-
-[B][COLOR red]2019/10/29[/COLOR][/B]
-
-[COLOR lime]MirrorV2 ver 2.0.03[/COLOR]
-
-    - added 13 clowns style movie and tv show
-    - Online news icon renew
-	- 4k direct Movies added
-    - Random Movies funtion added
-    - Renew Proxy settings
-    - little fixed
-
-[B][COLOR red]2019/10/29[/COLOR][/B]
- 
-[COLOR lime]MirrorV2 ver 2.0.02[/COLOR]
-
-    - various tested
-
-[B][COLOR red]2019/10/27[/COLOR][/B]
- 
-[COLOR lime]MirrorV2 ver 2.0.01[/COLOR]
-
-    - A follow-up version of mirror
-    - Run on multi sources
-    - Maintain TMDb lists daily
-    - Ipv
-    - Youtube
-    - VIP box
-    - In theather TMDb style
-    
-
-
-[COLOR red]Find me on cy4root@gmail.com[/COLOR]
-                  [B][COLOR red]@Cy4Root[/COLOR][/B]
+@ Rootmaster11[/COLOR][/B]
