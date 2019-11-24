@@ -1,13 +1,19 @@
 
 [B][COLOR orange]What's new !!![/COLOR][/B]
 
-[B][COLOR green]Date of update: 23-11-2019
+[B][COLOR green]Date of update: 24-11-2019
 ---------------------------
 
-Version 2.0.11
+Version 2.0.11b
 
-In this new version, open scrapers is set as standard because there are problems with some Android devices.
-At settings providers you can also return to the Lipton module.
-For problems you can always email me.
+Issue resolved
+--------------
+The problems with the scrapers are now solved and thanks to Addons4Kodi with the powerful open scrapers, my MirrorV2 is now fully equipped with these scrapers.
+Thank you for the team work.
+
+Tip: Maybe just empty the usermap or re-install MirrorV2.
+MirrorV2 is now based on OpenScraper.
+
+
 
 @ Rootmaster11[/COLOR][/B]
