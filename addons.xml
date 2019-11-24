@@ -81,6 +81,7 @@
         <news>v2.0.07 - German language added </news>
     </extension>
 </addon>
+	
 		
 <addon id="script.module.urlresolver" name="URLResolver" version="5.0.43" provider-name="tvaddons">
     <requires>
