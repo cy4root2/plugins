@@ -229,7 +229,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.openmeta" name="OpenMeta custom version Dutch" version="1.4.11" provider-name="A4K">
+<addon id="plugin.video.openmeta" name="OpenMeta" version="1.4.12" provider-name="A4K">
 	<requires>
 		<import addon="xbmc.python" version="2.25.0"/>
 		<import addon="metadata.tvdb.com" version="3.0.14"/>
@@ -269,6 +269,9 @@
 		<website></website>
 		<source></source>
 		<news>
+		1.4.12 - Handle non-existent 'filename' key in TVDB data.
+		1.4.11 - TVDB API fix, thanks to @ruinernin and @bg-22 (among others)!
+				 BUG: Some artwork may not load for certain items, due to ongoing API instability.
 		1.4.10 - Added language option for player-files (TV)
 		1.4.9  - Fix art in TV menus
 		1.4.8  - Fix crash from empty "first_aired" string"
@@ -285,7 +288,7 @@
 	</extension>
 </addon>
 	
-<addon id="script.extendedinfo" name="OpenInfo custom version" version="6.2.3" provider-name="A4K">
+<addon id="script.extendedinfo" name="OpenInfo" version="6.2.4" provider-name="A4K">
 	<requires>
 		<import addon="xbmc.python" version="2.25.0"/>
 		<import addon="script.module.pil" version="1.1.7"/>
@@ -313,13 +316,15 @@
 		<summary>Fork of the ExtendedInfo script from phil65</summary>
 		<description>This script offers various possibilities to display online content inside skins as well as a complete MovieDB browser including info dialogs for various media types. Needs skin implementation for lot of functions and OpenMeta for library functions.</description>
 		<assets>
-			<icon>icon.png</icon>
-			<fanart>fanart.jpg</fanart>
-			<screenshot></screenshot>
-			<screenshot></screenshot>
-			<screenshot></screenshot>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+			<screenshot>resources/screenshot1.jpg</screenshot>
+			<screenshot>resources/screenshot2.jpg</screenshot>
+			<screenshot>resources/screenshot3.jpg</screenshot>
 		</assets>
-		<news>6.2.3 - Fix TV Show trailers
+		<news>
+		6.2.4 - Specify param in TV Show ID
+		6.2.3 - Fix TV Show trailers
 		6.2.2 - Added ability to search using the tvdb_id for "extendedepisodeinfo"
 		6.2.1 - Fix context menu now available for widgets pointing to OpenInfo's video addon items
 		6.2.0 - Added context menu force "player select" to the play button, available via "c" and long press "enter" button
