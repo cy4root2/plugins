@@ -65,7 +65,7 @@
 	</extension>
 </addon>
 	
-<addon id="script.module.covenant" name="Covenant Module" version="1.00.025a" provider-name="Covenant">
+<addon id="script.module.covenant" name="Covenant Module" version="1.00.025b" provider-name="Covenant">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 	</requires>
