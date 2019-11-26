@@ -193,8 +193,8 @@ This is a Non-profit resource, organized solely for educational purposes which i
         <news> </news>
     </extension>
 </addon>
-	
-<addon id="plugin.video.mirrorv2" name="[COLOR orange][B]MirRoR V2[COLOR white] Video[/B][/COLOR]" provider-name="Cy4Root" version="2.0.11e">
+
+<addon id="plugin.video.mirrorv2" name="[COLOR orange][B]MirRoR V2[COLOR white] Video[/B][/COLOR]" provider-name="Cy4Root" version="2.0.11f">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.openscrapers" />
@@ -216,9 +216,11 @@ This is a Non-profit resource, organized solely for educational purposes which i
         <assets>
             <icon>icon.gif</icon>
             <fanart>fanart.gif</fanart>
-            <screenshot></screenshot>
+            <screenshot>resources/screenshots/screenshot01a.png</screenshot>
+	    <screenshot>resources/screenshots/screenshot02a.png</screenshot>
+	    <screenshot>resources/screenshots/screenshot03a.png</screenshot>
         </assets>
-        <news>v2.0.07 - German language added </news>
+        <news>v2.0.11 Openscrapers Edition</news>
     </extension>
 </addon>
 	
