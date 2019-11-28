@@ -725,7 +725,7 @@ This is a Non-profit resource, organized solely for educational purposes which i
   </extension>
 </addon>
 	
-<addon id="script.module.slproxy" name="SLProxy" version="0.0.3" provider-name="devilsport">
+<addon id="script.module.slproxy" name="SLProxy" version="0.0.7" provider-name="devilsport">
   <requires>
     <import addon="xbmc.python" version="2.24.0"/>
     <import addon="script.module.requests"/>
