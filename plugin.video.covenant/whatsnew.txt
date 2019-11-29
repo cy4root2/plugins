@@ -1,0 +1,18 @@
+[B]Recently Updated:[/B] November 29, 2019
+
+repository.cy4root - 1.1.13
+plugin.video.covenant - 1.1.32
+script.module.covenant - 1.00.027
+
+[I]- Renew Trakt TV[/I]
+[I]- Added Sources Filters[/I]
+[I]- Added Furknet Account[/I]
+[I]- Added Documentary[/I]
+[I]- Added Torrent filters [/I]
+[I]- Added Only Real Debrid[/I]
+[I]- Added Filter-out duplicate links[/I]
+
+
+
+[B]Important!![/B] Reset Covenant settings to Defaults if you are experiencing issues.
+If you reset to Defaults, Trakt will need to be re-authorized and IMDb credentials re-entered.
