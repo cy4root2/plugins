@@ -110,7 +110,7 @@ This is a Non-profit resource, organized solely for educational purposes which i
 	</extension>
 </addon>
 		
-<addon id="plugin.video.covenant" version="1.1.31" name="Covenant" provider-name="Covenant">
+<addon id="plugin.video.covenant" version="1.1.32" name="Covenant" provider-name="Covenant">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.openscrapers" version="0.0.1.99" />
@@ -173,7 +173,7 @@ This is a Non-profit resource, organized solely for educational purposes which i
 	</extension>
 </addon>
 	
-<addon id="script.module.covenant" name="Covenant Module" version="1.00.026" provider-name="Covenant">
+<addon id="script.module.covenant" name="Covenant Module" version="1.00.027" provider-name="Covenant">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 	</requires>
