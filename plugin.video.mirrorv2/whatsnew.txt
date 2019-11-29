@@ -1,19 +1,12 @@
 
 [B][COLOR orange]What's new !!![/COLOR][/B]
 
-[B][COLOR green]Date of update: 24-11-2019
+[B][COLOR green]Date of update: 29-11-2019
 ---------------------------
 
-Version 2.0.11d
+Version 2.0.12
 
-Issue resolved
---------------
-The problems with the scrapers are now solved and thanks to Addons4Kodi with the powerful open scrapers, my MirrorV2 is now fully equipped with these scrapers.
-Thank you for the team work.
-
-Tip: Maybe just empty the usermap or re-install MirrorV2.
-MirrorV2 is now based on OpenScraper.
-
-
+- fixing IPTV
+- Little issue repair module
 
 @ Rootmaster11[/COLOR][/B]
