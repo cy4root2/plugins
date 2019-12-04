@@ -1,6 +1,10 @@
-[B]Recently Updated:[/B] November 29, 2019
+[B]Recently Updated:[/B] December 4, 2019
 
-repository.cy4root - 1.1.13
+New Repository For Covenant Github:  
+----------------------------------
+https://covenant01.github.io/zip/
+
+repository.covenant - 0.2
 plugin.video.covenant - 1.1.32
 script.module.covenant - 1.00.027
 
