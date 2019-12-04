@@ -113,13 +113,17 @@ This is a Non-profit resource, organized solely for educational purposes which i
 <addon id="plugin.video.covenant" version="1.1.32" name="Covenant" provider-name="Covenant">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
-		<import addon="script.module.openscrapers" version="0.0.1.99" />
+		<import addon="script.module.requests" version="2.19.1" />
+		<import addon="script.module.beautifulsoup4" version="4.5.3"/>
+		<import addon="script.module.metahandler" version="2.9.0" />
+		<import addon="plugin.video.youtube" version="6.2.0"/>
+		<import addon="script.module.resolveurl" version="5.0.27"/>
+		<import addon="script.module.openscrapers" />
+		<import addon="script.module.addon.signals" version="0.0.3"/>
 		<import addon="script.module.resolveurl" />
 		<import addon="script.module.covenant" />
 		<import addon="script.covenant.artwork" version="1.0.0" />
 		<import addon="script.covenant.metadata" version="1.0.0" />
-		<import addon="script.module.requests" />
-		<import addon="script.module.metahandler" version="1.0.0" />
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="covenant.py">
 		<provides>video</provides>
