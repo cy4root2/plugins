@@ -791,7 +791,7 @@ A lot of existing add-ons already integrate with this service out-of-the-box.</d
     </extension>
 </addon>
 
-<addon id="plugin.video.sport365.live" name="Sport365" version="2.6.6.2" provider-name="Bugatsinho">
+<addon id="plugin.video.sport365.live" name="Sport365" version="2.6.9" provider-name="Bugatsinho">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.requests" version="2.19.1"/>
@@ -815,8 +815,8 @@ A lot of existing add-ons already integrate with this service out-of-the-box.</d
     <icon>icon.png</icon>
     <fanart>fanart.png</fanart>
   </assets>
-  <news>2.6.6.2 03-11-2019
-- Fix regex for the events and get key for decrypt website streams</news>
+  <news>2.6.9 09-12-2019
+- Fix GitHub URL on NEWS Tab</news>
   </extension>
 </addon>
 
