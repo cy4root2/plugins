@@ -767,7 +767,7 @@ A lot of existing add-ons already integrate with this service out-of-the-box.</d
     </extension>
 </addon>
 
-<addon id="script.module.liptonscrapers" name="Lipton Module V2" version="1.1.05" provider-name="Cy4Root">
+<addon id="script.module.liptonscrapers" name="Lipton Module V2" version="1.1.06" provider-name="Cy4Root">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
         <import addon="script.module.beautifulsoup4"/>
