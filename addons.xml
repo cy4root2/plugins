@@ -2,7 +2,7 @@
 
 <addons>
 	
-<addon id="plugin.video.uranus" version="1.0.0.1" name="[COLOR blue][B]Uranus[/B][/COLOR]" provider-name="Cy4Root">
+<addon id="plugin.video.uranus" version="1.0.0.2" name="[COLOR blue][B]Uranus[/B][/COLOR]" provider-name="Cy4Root">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
                 <import addon="script.module.resolveurl"/>
