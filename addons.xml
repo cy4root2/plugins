@@ -38,7 +38,7 @@ This is a Non-profit resource, organized solely for educational purposes which i
 	</extension>
 </addon>
 	
-<addon id="plugin.video.neptune" version="1.4.4" name=" Neptune Rising" provider-name="Mr. Blamo">
+<addon id="plugin.video.neptune" version="9.9.9" name=" Neptune Rising" provider-name="Mr. Blamo">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
                 <import addon="script.module.resolveurl"/>
