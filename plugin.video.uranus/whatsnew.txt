@@ -1,3 +1,9 @@
+New 1.0.0.4b
+
+- Added TBDb (openinfo) under what is the fork?
+- Artwork small fix
+
+
 Dear Fans
 
 It is again a pleasure to bring an old fork to life and gladly do this for you.
