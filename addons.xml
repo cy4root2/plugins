@@ -426,6 +426,29 @@ Other languages with a great number of subtitles are: Danish, French, Swedish, D
     </extension>
 </addon>
 	
+<addon id="script.module.swiftstreamz" name="script.module.swiftstreamz" version="2.3" provider-name="cloned Cy4Root">
+  <requires>
+    <import addon="script.module.requests" />
+    <import addon="script.module.requests-cache" />
+    <import addon="script.module.routing" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>all</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_gb">Cloned for Cy4Root users from RACC SwiftStreamz Module. All credit must go to anyone involved in the Original Code</summary>
+    <description lang="en_gb">Module for SwiftStreamz APK</description>
+    <disclaimer lang="en_gb"></disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license></license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <source></source>
+  </extension>
+</addon>
+	
 
 <addon id="script.module.liptonscrapers" name="Lipton Module V2" version="1.1.06" provider-name="Cy4Root">
     <requires>
