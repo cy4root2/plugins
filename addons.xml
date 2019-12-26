@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
 	
-<addon id="plugin.video.descent" version="1.0.01" name="[COLOR red]Descent[/COLOR]" provider-name="cy4Root">
+<addon id="plugin.video.descent" version="1.0.02" name="[COLOR red]Descent[/COLOR]" provider-name="cy4Root">
 
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
