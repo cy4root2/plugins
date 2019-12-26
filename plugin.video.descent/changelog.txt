@@ -1,8 +1,14 @@
 Latest News..
 
-2019-12-25
+2019-12-26
 
 Welcom to my new Addon Descent
+
+Version 1.0.0.2
+
+- An extensive collection of Descent added to movies
+- Work of art errors solved
+- Settings menu is different than in my other addons with more options
 
 Github:  https://cy4root2.github.io/zip
 
