@@ -33,6 +33,7 @@
     </extension>
 </addon>
 	
+	
 <addon id="script.clownsreplica.artwork" version="0.0.4b" name="[B][COLOR red]Clown's Replica[/COLOR] Artwork[/B]" provider-name="[B][COLOR cyan]Mr.unknown[/COLOR][/B]">
     <requires>
         <import addon="xbmc.python" version="2.19.0"/>
