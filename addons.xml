@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
 	
-<addon id="plugin.video.descent" version="1.0.02" name="[COLOR red]Descent[/COLOR]" provider-name="cy4Root">
+<addon id="plugin.video.descent" version="1.0.03" name="[COLOR red][B]Descent[/B][/COLOR]" provider-name="Cy4Root">
 
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
@@ -33,12 +33,16 @@
 		<assets>
 			<icon>icon.png</icon>
 			<fanart>fanart.jpg</fanart>
-			<screenshot></screenshot>
-			<screenshot></screenshot>
-			<screenshot></screenshot>
+			<screenshot>resources/screenshots/screenshot01a.png</screenshot>
+	    		<screenshot>resources/screenshots/screenshot02a.png</screenshot>
+	    		<screenshot>resources/screenshots/screenshot03a.png</screenshot>
 		</assets>
 		<news>
-[B][COLOR red]Update - v1.0.01 - December 25, 2019[/COLOR][/B]
+[B][COLOR red]Update - v1.0.03 - December 28, 2019[/COLOR][/B]
+- Add TMDb Search
+- Add Music Choice
+- Add New Artwork
+- Fix Category Movies TVShows
 
 		</news>
 	</extension>
