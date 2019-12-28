@@ -1,14 +1,16 @@
 Latest News..
 
-2019-12-26
+2019-12-28
 
 Welcom to my new Addon Descent
 
-Version 1.0.0.2
+Version 1.0.0.3
 
-- An extensive collection of Descent added to movies
-- Work of art errors solved
-- Settings menu is different than in my other addons with more options
+- Add TMDb Search
+- Add Music Choice
+- Add New Artwork
+- Fix Category Movies TVShows
+
 
 Github:  https://cy4root2.github.io/zip
 
