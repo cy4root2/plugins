@@ -111,7 +111,7 @@
 
 
 	
-<addon id="plugin.video.descent" version="1.0.03" name="[COLOR red][B]Descent[/B][/COLOR]" provider-name="Cy4Root">
+<addon id="plugin.video.descent" version="1.0.04" name="[COLOR red][B]Descent[/B][/COLOR]" provider-name="Cy4Root">
 
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
@@ -148,11 +148,9 @@
 	    		<screenshot>resources/screenshots/screenshot03a.png</screenshot>
 		</assets>
 		<news>
-[B][COLOR red]Update - v1.0.03 - December 28, 2019[/COLOR][/B]
-- Add TMDb Search
-- Add Music Choice
-- Add New Artwork
-- Fix Category Movies TVShows
+
+- Add foreign Channels by IPTV include Canada TV
+- Add USA TV GO credits to JewBMX
 
 		</news>
 	</extension>
@@ -555,6 +553,8 @@ Other languages with a great number of subtitles are: Danish, French, Swedish, D
     </extension>
 </addon>
 	
+
+	
 <addon id="script.module.swiftstreamz" name="script.module.swiftstreamz" version="2.3" provider-name="cloned Cy4Root">
   <requires>
     <import addon="script.module.requests" />
@@ -575,6 +575,54 @@ Other languages with a great number of subtitles are: Danish, French, Swedish, D
     <website></website>
     <email></email>
     <source></source>
+  </extension>
+</addon>
+	
+<addon id="plugin.video.live.streamspro"
+       name="LiveStreamsPro"
+       version="2.9.3"
+       provider-name="Shani">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" optional="true" />
+    <import addon="script.module.dateutil" optional="true" />
+    <import addon="script.module.resolveurl" optional="true"/>
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.inputstreamhelper" optional="true"/>
+    <import addon="script.module.simplejson" />    
+    <import addon="script.module.livestreamer" optional="true"/>
+    <import addon="script.module.slproxy" optional="true"/>
+    <import addon="script.module.pyamf" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+
+
+  <extension point="xbmc.addon.metadata">
+    <summary>livestreamspro- shamelessly forked from livestreams but added many things</summary>
+    <description>
+        In addition to what livestreams allowed you to do, you can now,
+        1. call regex in regex,
+        2. multiple regex in page, regex in session, also htmlunescape responses
+        3. create session from one regex and pass onto next in line
+        4. save sessions to a file and open again later
+        5. write python code in .py file, put in the profile directory and then call from your regex.
+        6. use epoctime, guid and unpack as functions already defined.
+        7. Use it to post values to the pages to get the proper responses
+        8. support many headers, like origin, X-Requested-With
+        9. you can now append cookies in response and then read in regex using includeheaders
+        10. You can now link to another web url via your xml using externallink
+        11. support for google captcha, now you can show and then post the text
+        
+    </description>
+    <platform>all</platform>
   </extension>
 </addon>
 	
@@ -640,7 +688,7 @@ v5.2.15 (2019-11-22)
 </addon>
 
 	
-<addon id="repository.cy4root" name="cy4root Repository" version="1.1.19a" provider-name="Cy4Root">
+<addon id="repository.cy4root" name="cy4root Repository" version="1.1.19b" provider-name="Cy4Root">
 	<extension point="xbmc.addon.repository" name="Cy4Root">
 
 
