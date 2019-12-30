@@ -1,17 +1,17 @@
 Latest News..
 
-2019-12-28
+2019-12-30
 
 Welcom to my new Addon Descent
 
-Version 1.0.0.3
+Version 1.0.0.4
 
-- Add TMDb Search
-- Add Music Choice
-- Add New Artwork
-- Fix Category Movies TVShows
+- Add foreign Channels by IPTV include Canada TV
+- Add USA TV GO credits to JewBMX
 
 
 Github:  https://cy4root2.github.io/zip
+
+alternate repository Github:  https://cy4root.github.io
 
 @ Cy4Root
