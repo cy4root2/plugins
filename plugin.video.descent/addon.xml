@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.descent" version="1.0.04" name="[COLOR red][B]Descent[/B][/COLOR]" provider-name="Cy4Root">
+<addon id="plugin.video.descent" version="1.0.04a" name="[COLOR red][B]Descent[/B][/COLOR]" provider-name="Cy4Root">
 
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
@@ -39,6 +39,7 @@
 
 - Add foreign Channels by IPTV include Canada TV
 - Add USA TV GO credits to JewBMX
+- Fix Acrotv
 
 		</news>
 	</extension>
