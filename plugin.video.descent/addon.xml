@@ -9,6 +9,7 @@
 		<import addon="plugin.video.youtube" version="6.2.0"/>
 		<import addon="script.module.resolveurl" />
 		<import addon="script.module.openscrapers" />
+		<import addon="script.module.liptonscrapers" optional="true" />
 		<import addon="script.module.addon.signals" version="0.0.1"/>
 	</requires>
 
