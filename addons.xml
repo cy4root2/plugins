@@ -387,7 +387,7 @@ This is a Non-profit resource, organized solely for educational purposes which i
   </extension>
 </addon>
 		
-<addon id="plugin.video.SportsDevil" name="SportsDevil" version="2020.01.01" provider-name="SportsDevil">
+<addon id="plugin.video.SportsDevil" name="SportsDevil" version="2019.11.01" provider-name="SportsDevil">
 	<requires>
 		<import addon="xbmc.python" version="2.25.0"/>
 		<import addon="script.module.requests" />
