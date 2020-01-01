@@ -1,13 +1,18 @@
 Latest News..
 
-2019-12-30
+01-01-2020
+
+HAPPY NEW YEAR !!! 2020
 
 Welcom to my new Addon Descent
 
-Version 1.0.0.4
+Version 1.0.0.5
 
-- Add foreign Channels by IPTV include Canada TV
-- Add USA TV GO credits to JewBMX
+- Add more Iptv
+- Add Youtube (new edition)
+- Add Music Choice
+- Add Optional multi sources (default power by Openscrapers)
+- Fix AcroTV
 
 
 Github:  https://cy4root2.github.io/zip
