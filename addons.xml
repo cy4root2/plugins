@@ -395,7 +395,6 @@ This is a Non-profit resource, organized solely for educational purposes which i
 		<import addon="script.module.inputstreamhelper" version="0.3.3"/>
 		<import addon="script.module.resolveurl" version="5.0.00"/>
         <import addon="script.module.streamlink.base" />
-        <import addon="repository.kodibae" />
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="maintv.py">
 		<provides>video</provides>
