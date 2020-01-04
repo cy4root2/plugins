@@ -1,4 +1,0 @@
-[B]2.0.2[/B]
-- Help Icon
-[B]2.0.1[/B]
-- Initial version
