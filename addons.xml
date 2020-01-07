@@ -136,7 +136,7 @@
     </extension>
 </addon>
 	
-<addon id="plugin.video.descent" version="1.0.06" name="[COLOR red][B]Descent[/B][/COLOR]" provider-name="Cy4Root">
+<addon id="plugin.video.descent" version="1.0.06a" name="[COLOR red][B]Descent[/B][/COLOR]" provider-name="Cy4Root">
 
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
@@ -175,13 +175,12 @@
 		</assets>
 		<news>
 
-- Add foreign Channels by IPTV include Canada TV
-- Add USA TV GO credits to JewBMX
-- Fix Acrotv
-- Add Youtube
-- Add Music Choice
-- More IPtv
-- Add Radio
+- Repair menu icon TvShows (a)
+- Add One Click movies
+- Descent collection put under Descent
+- TMDB Openinfo put under search function
+- Fix New movies
+
 
 		</news>
 	</extension>
