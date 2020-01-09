@@ -1,0 +1,18 @@
+Last change
+
+09-01-2020
+
+Version 2.0.14
+
+- Added: Multisources (Openscrapers default)
+- Added: TvMaze
+- Changed: Settings menu
+
+For bugs you can email:  cy4root@gmail.com
+
+Github:  https://cy4root2.github.io/zip
+
+alternate repository Github:  https://cy4root.github.io
+
+
+@ Cy4Root
