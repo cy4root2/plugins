@@ -1,49 +1,42 @@
-[B][COLOR orange]Last repository 1.1.15b[/COLOR][/B]
+[B][COLOR orange]Last repository 1.2.002[/COLOR][/B]
 
 
-[B][COLOR red]2019/12/16[/COLOR][/B]
+
+
+[COLOR lime]MirrorV2 ver 2.0.15[/COLOR]
+    - Changed: Settings menu
+    - Added: Multisources (Openscrapers default)
+    - Added: TvMaze
+    - Added: Polish language
 
 [COLOR lime]MirrorV2 ver 2.0.13[/COLOR]
-    - Add IMDb Collection on Box Office
-
-[B][COLOR red]2019/11/24[/COLOR][/B]
+    - Add IMDb Collection on BoxSets
 
 [COLOR lime]MirrorV2 ver 2.0.11[/COLOR]
     - Lipton Module completely replaced for OpenScrapers
     - fixed torrent sources
     - Minor issues fixed
-    
-
-[B][COLOR red]2019/11/19[/COLOR][/B]
 
 [COLOR lime]MirrorV2 ver 2.0.10[/COLOR]
     - Box Office updated added: More Genere and Movie selection list IMDb
     - Checked everything and cleaned up the necessary.
     - Cotrole implemented the new TVDb change
     - Minor repairs.
-
-[B][COLOR red]2019/11/12[/COLOR][/B]
  
 [COLOR lime]MirrorV2 ver 2.0.09[/COLOR]
 
     - Replace TMDb list for Box Office
     - Added lists to Box Office
-
-[B][COLOR red]2019/11/12[/COLOR][/B]
  
 [COLOR lime]MirrorV2 ver 2.0.08[/COLOR]
 
     - various tested
-   
-[B][COLOR red]2019/11/08[/COLOR][/B]
  
 [COLOR lime]MirrorV2 ver 2.0.07[/COLOR]
 
     - German language added
     - Checked everything for any errors
     - Multi sources tested
-
-[B][COLOR red]2019/11/05[/COLOR][/B]
  
 [COLOR lime]MirrorV2 ver 2.0.06[/COLOR]
 
@@ -52,23 +45,17 @@
     - fixed only adult 
     - various repairs
 
-
-[B][COLOR red]2019/11/03[/COLOR][/B]
  
 [COLOR lime]MirrorV2 ver 2.0.05[/COLOR]
 
     - added multisources (openscrapers)
     - various repairs
-
-[B][COLOR red]2019/11/02[/COLOR][/B]
  
 [COLOR lime]MirrorV2 ver 2.0.04[/COLOR]
 
     - Lipton module had problems with windows user, has been fixed
     - New 4k 1 click movies
     - little fixed
-
-[B][COLOR red]2019/10/29[/COLOR][/B]
 
 [COLOR lime]MirrorV2 ver 2.0.03[/COLOR]
 
@@ -78,8 +65,6 @@
     - Random Movies funtion added
     - Renew Proxy settings
     - little fixed
-
-[B][COLOR red]2019/10/29[/COLOR][/B]
  
 [COLOR lime]MirrorV2 ver 2.0.02[/COLOR]
 

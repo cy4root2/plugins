@@ -1,12 +1,13 @@
 Last change
 
-09-01-2020
+10-01-2020
 
-Version 2.0.14
+Version 2.0.16
 
-- Added: Multisources (Openscrapers default)
-- Added: TvMaze
-- Changed: Settings menu
+MirrorV2 has been improved under the hood and the settings are more extensive and clearer.
+Extra options such as: TVMaze, TVDb, Metadata, Multisources choice.
+IMDb and TBDb Trakt lists and more can be found under TV shows and Movies.
+In the settings menu you can turn things off as desired.
 
 For bugs you can email:  cy4root@gmail.com
 
