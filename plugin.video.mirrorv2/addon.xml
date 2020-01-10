@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.mirrorv2" name="[COLOR orange][B]MirRoR V2[COLOR white] Video[/B][/COLOR]" provider-name="Cy4Root" version="2.0.16">
+<addon id="plugin.video.mirrorv2" name="[COLOR orange][B]MirRoR V2[COLOR white] Video[/B][/COLOR]" provider-name="Cy4Root" version="2.0.16a">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.requests" version="2.19.1" />
@@ -28,10 +28,7 @@
 	    <screenshot>resources/screenshots/screenshot02a.png</screenshot>
 	    <screenshot>resources/screenshots/screenshot03a.png</screenshot>
         </assets>
-        <news>MirrorV2 has been improved under the hood and the settings are more extensive and clearer.
-Extra options such as: TVMaze, TVDb, Metadata, Multisources choice.
-IMDb and TBDb Trakt lists and more can be found under TV shows and Movies.
-In the settings menu you can turn things off as desired.</news>
+        <news></news>
     </extension>
 </addon>
 
