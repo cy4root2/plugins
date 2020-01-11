@@ -1,6 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
 	
+<addon id="plugin.video.sportoka" name="Sportoka TV" version="0.0.1" provider-name="Cy4Root">
+	<requires>
+		<import addon="xbmc.python" version="2.25.0"/>
+		<import addon="script.module.requests" />
+		<import addon="script.module.parsedom" version="2.5.2"/>
+		<import addon="script.module.inputstreamhelper" version="0.3.3"/>
+		<import addon="script.module.resolveurl" version="5.0.00"/>
+        <import addon="script.module.streamlink.base" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="maintv.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<description>Sport events</description>
+		<disclaimer>https://cy4root2.github.io/zip</disclaimer>
+		<summary>Live coverage clones from PLSportowa</summary>
+		<language>en</language>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+		<website></website>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+		</assets>
+	</extension>
+</addon>
+	
 <addon id="plugin.video.flixhat" name="Flixhat" version="0.0.1" provider-name="Cy4Root">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
@@ -357,34 +384,7 @@ This is a Non-profit resource, organized solely for educational purposes which i
     <platform>all</platform>
   </extension>
 </addon>
-		
-<addon id="plugin.video.PLsportowo" name="Sportowa TV" version="1.9.3a" provider-name="mbebe Custom">
-	<requires>
-		<import addon="xbmc.python" version="2.25.0"/>
-		<import addon="script.module.requests" />
-		<import addon="script.module.parsedom" version="2.5.2"/>
-		<import addon="script.module.inputstreamhelper" version="0.3.3"/>
-		<import addon="script.module.resolveurl" version="5.0.00"/>
-        <import addon="script.module.streamlink.base" />
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="maintv.py">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<description>Sport events</description>
-		<disclaimer>https://github.com/mbebe/blomqvist</disclaimer>
-		<summary>Live coverage</summary>
-		<language>en</language>
-		<platform>all</platform>
-		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-		<website></website>
-		<assets>
-			<icon>icon.png</icon>
-			<fanart>fanart.jpg</fanart>
-		</assets>
-	</extension>
-</addon>
-	
+			
 <addon id="script.module.streamlink.base" name="Streamlink Library" version="2019.11.11.1" provider-name="Streamlink Devs, Twilight0">
   <requires>
       <import addon="xbmc.python" version="2.24.0"/>
@@ -721,7 +721,7 @@ v5.2.15 (2019-11-22)
   </extension>
 </addon>
 
-<addon id="repository.cy4root" name="cy4root Repository" version="1.2.002" provider-name="Cy4Root">
+<addon id="repository.cy4root" name="cy4root Repository" version="1.2.003" provider-name="Cy4Root">
 	<extension point="xbmc.addon.repository" name="Cy4Root">
 
 
