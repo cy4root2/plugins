@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
-<addon id="plugin.video.PLsportowo" name="Sportowa TV" version="1.8.9" provider-name="mbebe">
+<addon id="plugin.video.PLsportowo" name="Sportowa TV" version="1.9.3a" provider-name="mbebe Custom">
 	<requires>
 		<import addon="xbmc.python" version="2.25.0"/>
 		<import addon="script.module.requests" />
@@ -12,10 +12,10 @@
 		<provides>video</provides>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<description>Wydarzenia sportowe</description>
+		<description>Sport events</description>
 		<disclaimer>https://github.com/mbebe/blomqvist</disclaimer>
-		<summary>Relacje Live</summary>
-		<language></language>
+		<summary>Live coverage</summary>
+		<language>en</language>
 		<platform>all</platform>
 		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
 		<website></website>
