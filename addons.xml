@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
 	
-<addon id="plugin.video.sportoka" name="Sportoka TV" version="0.0.1" provider-name="Cy4Root">
+<addon id="plugin.video.sportoka" name="Sportoka TV" version="0.0.2" provider-name="Cy4Root">
 	<requires>
 		<import addon="xbmc.python" version="2.25.0"/>
 		<import addon="script.module.requests" />
