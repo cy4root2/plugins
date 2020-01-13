@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-	
+
 <addon id="plugin.video.sportzig" version="0.0.01" name="[COLOR fuchsia]sportzig[/COLOR]" provider-name="Cy4Root">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
