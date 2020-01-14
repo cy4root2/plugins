@@ -2,4 +2,8 @@
 
 v0.0.02
 
+- Added: Sport5
 - Added: Sportube
+- Added: Sport TestZone (default disabled)
+
+
