@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
 
-<addon id="plugin.video.sportzig" version="0.0.01" name="[COLOR fuchsia]sportzig[/COLOR]" provider-name="Cy4Root">
+<addon id="plugin.video.sportzig" version="0.0.02" name="[COLOR fuchsia][B]Sport[COLOR white]Zig[/B][/COLOR]" provider-name="Cy4Root">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.resolveurl" />
@@ -14,14 +14,17 @@
 	</extension>
 	<extension point="xbmc.service" library="service.py" start="startup" />
 	<extension point="xbmc.addon.metadata">
-		<description lang="en">Sport addon</description>
+		<description lang="en">Sport Entertainment</description>
         <disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon.[CR]The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.[CR]This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.</disclaimer>
-        <license>Free the People!, Free the World!!</license>
+        <license></license>
 		<assets>
 			<icon>icon.png</icon>
 			<fanart>fanart.jpg</fanart>
 		</assets>
 		<news>
+			v0.0.02
+- Added: Sportube
+   Beta Release
 			v0.0.01
 - Beta Version from Cy4Root
 		</news>
