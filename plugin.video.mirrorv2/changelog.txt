@@ -1,12 +1,13 @@
 Last change
 
-11-01-2020
+16-01-2020
 
-Version 2.0.16a
+Version 2.0.17
 
-- Kleine update voor de Nederlandse taal.
-   Word nog hard aan gewerkt.
-- Little fix Movie Collection
+- Added: Ability to disable duplicate files
+- Added: Traktlist under movies
+- Menu structure adjusted
+- Minor repairs
 
 For bugs you can email:  cy4root@gmail.com
 

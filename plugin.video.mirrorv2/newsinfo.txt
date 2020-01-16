@@ -1,13 +1,23 @@
 [B][COLOR orange]Last repository 1.2.002[/COLOR][/B]
 
+[B][COLOR red]2020/01/10[/COLOR][/B]
 
+[COLOR lime]MirrorV2 ver 2.0.16[/COLOR]
 
+MirrorV2 has been improved under the hood and the settings are more extensive and clearer.
+Extra options such as: TVMaze, TVDb, Metadata, Multisources choice.
+IMDb and TMDb Trakt lists and more can be found under TV shows and Movies.
+In the settings menu you can turn things off as desired.
+Translation is still being worked on
 
 [COLOR lime]MirrorV2 ver 2.0.15[/COLOR]
     - Changed: Settings menu
     - Added: Multisources (Openscrapers default)
     - Added: TvMaze
     - Added: Polish language
+
+[COLOR lime]MirrorV2 ver 2.0.14[/COLOR]
+     - various tested
 
 [COLOR lime]MirrorV2 ver 2.0.13[/COLOR]
     - Add IMDb Collection on BoxSets
@@ -59,7 +69,7 @@
 
 [COLOR lime]MirrorV2 ver 2.0.03[/COLOR]
 
-    - added 13 clowns style movie and tv show
+    
     - Online news icon renew
 	- 4k direct Movies added
     - Random Movies funtion added
