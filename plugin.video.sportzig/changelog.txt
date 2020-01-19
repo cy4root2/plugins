@@ -1,3 +1,5 @@
+- Fixed error 404       v0.0.05 19-01-2020
+
 - references adjusted   v0.0.04
 
 - New, Based op Jen     v0.0.03	
@@ -5,3 +7,4 @@
 - Added: Sportube       v0.0.02
 
 - Beta Release		v0.0.01
+
