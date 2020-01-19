@@ -1,9 +1,7 @@
-- BETA VERSION
+- references adjusted   v0.0.04
 
-v0.0.02
+- New, Based op Jen     v0.0.03	
+	
+- Added: Sportube       v0.0.02
 
-- Added: Sport5
-- Added: Sportube
-- Added: Sport TestZone (default disabled)
-
-
+- Beta Release		v0.0.01

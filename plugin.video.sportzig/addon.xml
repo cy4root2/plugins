@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.sportzig" version="0.0.03" name="[COLOR fuchsia][B]Sport[COLOR white]Zig[/B][/COLOR]" provider-name="Cy4Root">
+<addon id="plugin.video.sportzig" version="0.0.04" name="[COLOR fuchsia][B]Sport[COLOR white]Zig[/B][/COLOR]" provider-name="Cy4Root">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.t0mm0.common" version="2.0.0"/>
@@ -28,6 +28,8 @@
 			<fanart>fanart.jpg</fanart>
 		</assets>
 		<news>
+- references adjusted   v0.0.04
+
 - New, Based op Jen     v0.0.03
 			v0.0.02
 - Added: Sportube
