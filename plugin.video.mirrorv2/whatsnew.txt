@@ -1,12 +1,11 @@
 
-[B][COLOR orange]What's new !!![/COLOR][/B]
+update:  2020/01/21
 
-[B][COLOR green]Date of update: 29-11-2019
----------------------------
+[COLOR yellow]LAST UPDATE IS RUNNED BECAUSE IT DOES NOT WORK WELL.
+- ADDED NEW: WORLDTV
+- SETTINGS ARE FIRST
+- WHAT THINGS UPDATED THAT WERE AGED[/COLOR]
 
-Version 2.0.12
 
-- fixing IPTV
-- Little issue repair module
-
-@ Rootmaster11[/COLOR][/B]
+[COLOR red]Find me on cy4root@gmail.com[/COLOR]
+                  [B][COLOR red]@Cy4Root[/COLOR][/B]
