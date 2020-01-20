@@ -76,7 +76,7 @@
 </addon>
 	
 
-<addon id="plugin.video.clownsreplica" version="0.3.6" name="[B][COLOR yellow]Clown's Replica[/COLOR][/B]" provider-name="[B][COLOR cyan]Mr.unknown[/COLOR][/B]">
+<addon id="plugin.video.clownsreplica" version="0.3.7" name="[B][COLOR yellow]Clown's Replica[/COLOR][/B]" provider-name="[B][COLOR cyan]Mr.unknown[/COLOR][/B]">
    <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.clownsreplica" />
@@ -153,7 +153,7 @@
     </extension>
 </addon>
 	
-<addon id="script.module.clownsreplica" version="0.3.6" name="[B][COLOR red]Clown's Replica[/COLOR]Module[/B]" provider-name="[B][COLOR cyan]Mr.unknown[/COLOR][/B]">
+<addon id="script.module.clownsreplica" version="0.3.7" name="[B][COLOR red]Clown's Replica[/COLOR]Module[/B]" provider-name="[B][COLOR cyan]Mr.unknown[/COLOR][/B]">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.beautifulsoup4" />
