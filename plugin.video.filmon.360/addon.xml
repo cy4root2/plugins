@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.filmon.360" name="FilmOn 360" version="0.1.0" provider-name="Cy4Root">
+  <requires>
+    <import addon="xbmc.python" version="2.19.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">FilmOn 360</summary>
+    <description lang="en"></description>
+    <platform>all</platform>
+    <assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
+    <website>http://cy4root2.github.io/zip</website>
+    </assets>
+    <news>NEW:
+UK LIVE TV
+SPORTS
+360 Channels
+FRENCH TV
+SLOVAKIAN CHANNELS</news>
+   </extension>
+</addon>
