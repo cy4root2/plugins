@@ -39,6 +39,7 @@ SLOVAKIAN CHANNELS</news>
 	<import addon="plugin.video.live.streamspro" />
 	<import addon="script.module.laola1tv" />
 	<import addon="script.module.swiftstreamz" />
+	<import addon="script.module.tt" />
 	<import addon="plugin.video.SportsDevil" />
 
 
