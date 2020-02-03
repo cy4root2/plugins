@@ -1,11 +1,9 @@
 
-update:  2020/01/21
+update:  03-02-2020
 
-[COLOR yellow]LAST UPDATE IS RUNNED BECAUSE IT DOES NOT WORK WELL.
-- ADDED NEW: WORLDTV
-- SETTINGS ARE FIRST
-- WHAT THINGS UPDATED THAT WERE AGED[/COLOR]
+[COLOR yellow]Fix problems with history and cache[/COLOR]
 
 
 [COLOR red]Find me on cy4root@gmail.com[/COLOR]
                   [B][COLOR red]@Cy4Root[/COLOR][/B]
+
