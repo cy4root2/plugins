@@ -1,0 +1,40 @@
+[B][COLOR green]Last repository 1.2.002[/COLOR][/B]
+
+
+[B][COLOR red]06-01-2020[/COLOR][/B]
+
+[COLOR lime]Descent ver 1.0.06[/COLOR]
+
+- Add One Click movies
+- Descent collection put under Descent
+- TMDB Openinfo put under search function
+- Fix New movies
+
+[COLOR lime]Descent ver 1.0.05[/COLOR]
+
+- Add Youtube
+- Add Tune Radio
+- Add More Iptv
+- Multi Sources (Default Openscrapers)
+
+
+[COLOR lime]Descent ver 1.0.04[/COLOR]
+
+- Add foreign Channels by IPTV include Canada TV
+- Add USA TV GO credits to JewBMX
+ 
+[COLOR lime]Descent ver 1.0.03[/COLOR]
+
+- Add TMDb Search
+- Add Music Choice
+- Add New Artwork
+- Fix Category Movies TVShows
+  
+[COLOR lime]Descent ver 1.0.02[/COLOR]
+
+- An extensive collection of Descent added to movies
+- Work of art errors solved
+- Settings menu is different than in my other addons with more options
+
+[COLOR lime]Descent ver 1.0.01[/COLOR]
+- A new addon are born

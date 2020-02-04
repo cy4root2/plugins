@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.divas" version="1.0.0" name="[B][COLOR orange]Divas[/COLOR][/B]" provider-name="Cy4Root">
+
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+		<import addon="script.module.requests" />
+		<import addon="script.module.beautifulsoup4" />
+		<import addon="script.module.metahandler" />
+		<import addon="script.module.resolveurl" />
+		<import addon="script.module.openscrapers" />
+        	<import addon="plugin.video.youtube" />
+	</requires>
+
+	<extension point="xbmc.python.pluginsource" library="divas.py">
+		<provides>video</provides>
+	</extension>
+
+	<extension point="xbmc.service" library="service.py" start="startup" />
+	<extension point="xbmc.python.module" library="resources/lib/"/>
+
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">[B][COLOR red]Divas[/COLOR][/B] We do not host any of the contents streamed</summary>
+		<description lang="en">This addon does not form part of the Kodi Media Centre. Please do not seek assistance with this addon from any of the Official Kodi Support Channels.[CR]The author does not host any of the content in this addon and takes no responsibility for content found.</description>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+		<forum></forum>
+		<website></website>
+		<source></source>
+		<disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+			<screenshot></screenshot>
+			<screenshot></screenshot>
+			<screenshot></screenshot>
+		</assets>
+		<news>
+[B][COLOR gold]Update - v1.0.0 - February 4, 2020[/COLOR][/B]
+   A New Addon are born
+		</news>
+	</extension>
+
+</addon>
