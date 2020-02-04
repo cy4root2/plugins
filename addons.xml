@@ -254,7 +254,7 @@ This is a Non-profit resource, organized solely for educational purposes which i
 	</extension>
 </addon>
 	
-<addon id="plugin.video.laplaza" version="1.0.16" name="[COLOR orange][B]Laplaza[/B][/COLOR]" provider-name="Cy4Root">
+<addon id="plugin.video.laplaza" version="1.0.17" name="[COLOR orange][B]Laplaza[/B][/COLOR]" provider-name="Cy4Root">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.liptonscrapers" />
