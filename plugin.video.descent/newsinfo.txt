@@ -1,0 +1,11 @@
+[B][COLOR yellow]Last repository 1.2.006[/COLOR][/B]
+
+[B][COLOR red]2020/02/05[/COLOR][/B] 
+[COLOR lime]Version 1.0.06[/COLOR]
+ 
+- Changes the TV Shows cache providers to normal
+- Menu structure reset for new build
+
+
+
+@ Cy4Root
