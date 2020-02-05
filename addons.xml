@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
 	
-<addon id="plugin.video.divas" version="1.0.0" name="[B][COLOR orange]Divas[/COLOR][/B]" provider-name="Cy4Root">
+<addon id="plugin.video.descent" version="1.0.06" name="[COLOR red][B]Descent[/B][/COLOR]" provider-name="Cy4Root">
 
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
@@ -10,10 +10,10 @@
 		<import addon="script.module.metahandler" />
 		<import addon="script.module.resolveurl" />
 		<import addon="script.module.openscrapers" />
-        	<import addon="plugin.video.youtube" />
+		<import addon="plugin.video.youtube" version="6.2.0"/>
 	</requires>
 
-	<extension point="xbmc.python.pluginsource" library="divas.py">
+	<extension point="xbmc.python.pluginsource" library="descent.py">
 		<provides>video</provides>
 	</extension>
 
@@ -21,24 +21,24 @@
 	<extension point="xbmc.python.module" library="resources/lib/"/>
 
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">[B][COLOR red]Divas[/COLOR][/B] We do not host any of the contents streamed</summary>
-		<description lang="en">This addon does not form part of the Kodi Media Centre. Please do not seek assistance with this addon from any of the Official Kodi Support Channels.[CR]The author does not host any of the content in this addon and takes no responsibility for content found.</description>
+		<summary lang="en">Movies TVShows</summary>
+		<description lang="en">This addon does not form part of the Kodi Media Centre. Please do not seek assistance with this addon from any of the Official Kodi Support Channels.[CR][CR]The author does not host any of the content in this addon and takes no responsibility for content found.</description>
 		<platform>all</platform>
 		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
 		<forum></forum>
 		<website></website>
 		<source></source>
-		<disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
+		<disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk</disclaimer>
 		<assets>
 			<icon>icon.png</icon>
 			<fanart>fanart.jpg</fanart>
 			<screenshot></screenshot>
-			<screenshot></screenshot>
-			<screenshot></screenshot>
+	    		<screenshot></screenshot>
+	    		<screenshot></screenshot>
 		</assets>
 		<news>
-[B][COLOR gold]Update - v1.0.0 - February 4, 2020[/COLOR][/B]
-   A New Addon are born
+- Changes the TV Shows cache providers to normal
+- Menu structure reset for new build
 		</news>
 	</extension>
 
@@ -762,7 +762,7 @@ v5.2.15 (2019-11-22)
   </extension>
 </addon>
 
-<addon id="repository.cy4root" name="cy4root Repository" version="1.2.006" provider-name="Cy4Root">
+<addon id="repository.cy4root" name="cy4root Repository" version="1.2.007" provider-name="Cy4Root">
 	<extension point="xbmc.addon.repository" name="Cy4Root">
 
 
