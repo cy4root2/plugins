@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
 	
-<addon id="plugin.video.descent" version="1.0.06b" name="[COLOR red][B]Descent[/B][/COLOR]" provider-name="Cy4Root">
+<addon id="plugin.video.descent" version="1.0.07" name="[COLOR red][B]Descent[/B][/COLOR]" provider-name="Cy4Root">
 
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
@@ -32,13 +32,15 @@
 		<assets>
 			<icon>icon.png</icon>
 			<fanart>fanart.jpg</fanart>
-			<screenshot></screenshot>
-	    		<screenshot></screenshot>
-	    		<screenshot></screenshot>
+			<screenshot>resources/screenshots/screen01.png</screenshot>
+	    		<screenshot>resources/screenshots/screen02.png</screenshot>
+	    		<screenshot>resources/screenshots/screen03.png</screenshot>
 		</assets>
 		<news>
-- Changes the TV Shows cache providers to normal
-- Menu structure reset for new build
+- Added a new trakt (for this you have to reactivate the old trakt to get the errors from the old trakt)
+- Added: Circus Divas menu with extra items in it
+- Added: TMDb search function
+- Iptv and Youtube are also under the DS Collection under Circus Divas menu 
 		</news>
 	</extension>
 
