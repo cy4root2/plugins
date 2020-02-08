@@ -1,11 +1,15 @@
-[B][COLOR yellow]Last repository 1.2.006[/COLOR][/B]
+[B][COLOR red]2020/02/08[/COLOR][/B] 
+[COLOR lime]Version 1.0.07[/COLOR]
 
-[B][COLOR red]2020/02/05[/COLOR][/B] 
-[COLOR lime]Version 1.0.06[/COLOR]
- 
-- Changes the TV Shows cache providers to normal
-- Menu structure reset for new build
+[B][COLOR yellow]Rewritten menu:
 
+- Added a new trakt (for this you have to reactivate the old trakt to get the errors from the old trakt)
 
+- Added: Circus Divas menu with extra items in it
+- Added: TMDb search function
+- Iptv and Youtube are also under the DS Collection under Circus Divas menu [/COLOR][/B]
+
+[B][COLOR green]For any errors in the code send me a pm
+contact: cy4root@gmail.com [/COLOR][/B]
 
 @ Cy4Root
