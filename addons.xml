@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
 	
-<addon id="plugin.video.descent" version="1.0.08a" name="[COLOR red][B]Descent[/B][/COLOR]" provider-name="Cy4Root">
+<addon id="plugin.video.descent" version="1.0.09" name="[COLOR red][B]Descent[/B][/COLOR]" provider-name="Cy4Root">
 
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
@@ -37,11 +37,9 @@
 	    		<screenshot>resources/screenshots/screen03.png</screenshot>
 		</assets>
 		<news>
-- Everything indexed again
-- Added a new trakt (for this you have to reactivate the old trakt to get the errors from the old trakt)
-- Added: Circus Divas menu with extra items in it
-- Added: TMDb search function
-- Iptv and Youtube are also under the DS Collection under Circus Divas menu 
+- 1 click movies
+- Random movie
+- Color distinction sources
 		</news>
 	</extension>
 
