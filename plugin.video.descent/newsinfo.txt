@@ -1,21 +1,21 @@
+[B][COLOR red]2020/02/10[/COLOR][/B]
+[COLOR lime] Version 1.0.09[/COLOR]
+
+- 1 click movies
+- Random movie
+- Color distinction sources
+
+
+
 [B][COLOR red]2020/02/08[/COLOR][/B]
 [COLOR lime] Version 1.0.08[/COLOR]
 
-[B][COLOR yellow] Rewritten menu:
-
+- Rewritten menu
 - Added a new trakt (for this you have to reactivate the old trakt to get the errors from the old trakt)
 - Everything indexed again
 - Added: Circus Divas menu with extra items in it
 - Added: TMDb search function
-- Iptv and Youtube are also under the DS Collection under Circus Divas menu [/COLOR][/B]
+- Iptv and Youtube are also under the DS Collection under Circus Divas menu 
 
 [B][COLOR green] For any errors in the code send me a pm
 contact: cy4root@gmail.com [/COLOR][/B]
-
-
-
-
-[B][COLOR red] 2020/02/08 [/COLOR][/B]
-[COLOR lime] Version 1.0.07 [/COLOR]
-
--Needed to apply and test the new indexing
