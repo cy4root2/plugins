@@ -1,13 +1,18 @@
-[B][COLOR red]2020/02/10[/COLOR][/B]
+[B][COLOR red]2020/02/17[/COLOR][/B]
+[COLOR lime] Version 1.0.10[/COLOR]
+
+- Fixed viewed seasons Trakt TV (auto remove)
+- Added: Filter-out duplicate links
+
+
+
+
 [COLOR lime] Version 1.0.09[/COLOR]
 
 - 1 click movies
 - Random movie
 - Color distinction sources
 
-
-
-[B][COLOR red]2020/02/08[/COLOR][/B]
 [COLOR lime] Version 1.0.08[/COLOR]
 
 - Rewritten menu
