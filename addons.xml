@@ -77,7 +77,7 @@
 	</extension>
 </addon> 
 	
-<addon id="plugin.video.descent" version="1.0.10a" name="[COLORorangered][B]Descent[/B][/COLOR]" provider-name="Cy4Root">
+<addon id="plugin.video.descent" version="1.0.10b" name="[COLORorangered][B]Descent[/B][/COLOR]" provider-name="Cy4Root">
 
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
