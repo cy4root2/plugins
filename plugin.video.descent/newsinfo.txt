@@ -1,5 +1,14 @@
 
-[B][COLOR red]2020/02/19[/COLOR][/B]
+[B][COLOR red]2020/02/27[/COLOR][/B]
+[COLOR lime] Version 1.0.12[/COLOR]
+
+- Added: Sports
+- Added: Swift build
+- Fixed Library menu
+- Small improvement
+
+
+
 [COLOR lime] Version 1.0.11[/COLOR]
 
 - Language improvement menu
