@@ -1,5 +1,19 @@
+[B][COLOR red]2020/03/19[/COLOR][/B]
+[COLOR lime] Version 1.0.13[/COLOR]
 
-[B][COLOR red]2020/02/27[/COLOR][/B]
+- Added: Spanish translation (under development)
+- Added: Lipton Module next to Openscrapers
+
+Important !!!
+
+If Trakt Tv does not work properly, uninstall Descent again.
+
+
+[COLOR lime] Version 1.0.12a[/COLOR]
+
+-Fix for youtube channels
+
+
 [COLOR lime] Version 1.0.12[/COLOR]
 
 - Added: Sports
