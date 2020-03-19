@@ -76,8 +76,8 @@
 		</news>
 	</extension>
 </addon> 
-	
-<addon id="plugin.video.descent" version="1.0.12a" name="[COLORorangered][B]Descent[/B][/COLOR]" provider-name="Cy4Root">
+
+<addon id="plugin.video.descent" version="1.0.13" name="[COLORorangered][B]Descent[/B][/COLOR]" provider-name="Cy4Root">
 
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
@@ -86,6 +86,7 @@
 		<import addon="script.module.metahandler" />
 		<import addon="script.module.resolveurl" />
 		<import addon="script.module.openscrapers" />
+		<import addon="script.module.liptonscrapers" optional="true" />
 		<import addon="plugin.video.youtube" version="6.2.0"/>
 	</requires>
 
@@ -113,7 +114,8 @@
 	    		<screenshot>resources/screenshots/screen03.png</screenshot>
 		</assets>
 		<news>
-- Fixed youtube channels
+- Added: Spanish translation (under development)
+- Added: Lipton Module next to Openscrapers
 		</news>
 	</extension>
 
