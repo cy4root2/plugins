@@ -243,7 +243,7 @@ SLOVAKIAN CHANNELS</news>
 </addon>
 	
 
-<addon id="plugin.video.clownsreplica" version="0.3.8b" name="[B][COLOR yellow]Clown's Replica[/COLOR][/B]" provider-name="[B][COLOR cyan]Mr.unknown[/COLOR][/B]">
+<addon id="plugin.video.clownsreplica" version="0.3.9" name="[B][COLOR yellow]Clown's Replica[/COLOR][/B]" provider-name="[B][COLOR cyan]Mr.unknown[/COLOR][/B]">
    <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.clownsreplica" />
@@ -320,7 +320,7 @@ SLOVAKIAN CHANNELS</news>
     </extension>
 </addon>
 	
-<addon id="script.module.clownsreplica" version="0.3.8b" name="[B][COLOR red]Clown's Replica[/COLOR]Module[/B]" provider-name="[B][COLOR cyan]Mr.unknown[/COLOR][/B]">
+<addon id="script.module.clownsreplica" version="0.3.9" name="[B][COLOR red]Clown's Replica[/COLOR]Module[/B]" provider-name="[B][COLOR cyan]Mr.unknown[/COLOR][/B]">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.beautifulsoup4" />
@@ -793,7 +793,7 @@ Other languages with a great number of subtitles are: Danish, French, Swedish, D
 </addon>
 	
 
-<addon id="script.module.liptonscrapers" name="Lipton Module V2" version="1.1.07" provider-name="Cy4Root">
+<addon id="script.module.liptonscrapers" name="Lipton Module V2" version="1.1.10" provider-name="Cy4Root">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
         <import addon="script.module.beautifulsoup4"/>
