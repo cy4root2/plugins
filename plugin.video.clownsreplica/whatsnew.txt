@@ -1,0 +1,26 @@
+[COLOR red]======[/COLOR][B][COLOR green]Status: (GOOD) I am not the developer but a channel [/COLOR][/B][COLOR red]========[/COLOR]
+
+[COLOR red]======[/COLOR][B][COLOR green]07.04.2020 V.0.3.9[/COLOR][/B][COLOR red]======[/COLOR]
+[B][COLOR yellow]- [/COLOR][/B][COLOR cyan]- Repaired broken references [/COLOR]
+[B][COLOR yellow]- [/COLOR][/B][COLOR cyan]- Renew the sources providers [/COLOR]
+[B][COLOR yellow]- [/COLOR][/B][COLOR cyan]- Sources providers now easier to switch on and off [/COLOR]
+
+[COLOR red]======[/COLOR][B][COLOR green]V.0.3.8[/COLOR][/B][COLOR red]======[/COLOR]
+[B][COLOR yellow]- [/COLOR][/B][COLOR cyan]- Iptv adapted and restored [/COLOR]
+[B][COLOR yellow]- [/COLOR][/B][COLOR cyan]- Kidsarea restored [/COLOR]
+
+
+[COLOR red]======[/COLOR][B][COLOR green]V.0.3.7[/COLOR][/B][COLOR red]======[/COLOR]
+[B][COLOR yellow]- [/COLOR][/B][COLOR cyan]- Repaired sources [/COLOR]
+
+[COLOR red]======[/COLOR][B][COLOR green]V.0.3.6[/COLOR][/B][COLOR red]======[/COLOR]
+[B][COLOR yellow]- [/COLOR][/B][COLOR cyan]- Repaired broken references [/COLOR]
+[B][COLOR yellow]- [/COLOR][/B][COLOR cyan]- Renew the sources providers [/COLOR]
+
+
+Last update from de dev https://invisibles.xyz/repo (Offline)
+[COLOR red]======[/COLOR][B][COLOR green]17.10.2019 [/COLOR][/B][COLOR red]======[/COLOR]
+[B][COLOR yellow]- [/COLOR][/B][COLOR cyan]- Added setting to import scraper modules. Any modules from exodus based video add-ons installed on your system can be added (e.g. Exodus Redux, 13 Clowns etc). [/COLOR]
+[B][COLOR yellow]- [/COLOR][/B][COLOR cyan]- Added setting to remove an imported scraper module. [/COLOR]
+
+@ Cy4Root
