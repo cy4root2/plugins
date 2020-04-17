@@ -1,55 +1,60 @@
-[B][COLOR red]2020/03/19[/COLOR][/B]
-[COLOR lime] Version 1.0.13[/COLOR]
-
-- Added: Spanish translation (under development)
-- Added: Lipton Module next to Openscrapers
-
-Important !!!
-
-If Trakt Tv does not work properly, uninstall Descent again.
-
-
-[COLOR lime] Version 1.0.12a[/COLOR]
-
--Fix for youtube channels
-
-
-[COLOR lime] Version 1.0.12[/COLOR]
-
-- Added: Sports
-- Added: Swift build
-- Fixed Library menu
-- Small improvement
-
-
-
-[COLOR lime] Version 1.0.11[/COLOR]
-
-- Language improvement menu
-- Color Change
-- Minor repairs
-
-
-[COLOR lime] Version 1.0.10[/COLOR]
-
-- Fixed viewed seasons Trakt TV (auto remove)
-- Added: Filter-out duplicate links
-
-
-[COLOR lime] Version 1.0.09[/COLOR]
-
-- 1 click movies
-- Random movie
-- Color distinction sources
-
-[COLOR lime] Version 1.0.08[/COLOR]
-
-- Rewritten menu
-- Added a new trakt (for this you have to reactivate the old trakt to get the errors from the old trakt)
-- Everything indexed again
-- Added: Circus Divas menu with extra items in it
-- Added: TMDb search function
-- Iptv and Youtube are also under the DS Collection under Circus Divas menu 
-
-[B][COLOR green] For any errors in the code send me a pm
+[B][COLOR red]2020/04/17[/COLOR][/B]
+[COLOR lime] Version 1.0.14[/COLOR]
+
+-Fix Youtube api (Trailers)
+
+[COLOR lime] Version 1.0.13a[/COLOR]
+
+- 1 click tvshows dutch update
+- Added: Spanish translation 
+- Added: Lipton Module next to Openscrapers
+
+Important !!!
+
+If Trakt Tv does not work properly, uninstall Descent again.
+
+
+[COLOR lime] Version 1.0.12a[/COLOR]
+
+-Fix for youtube channels
+
+
+[COLOR lime] Version 1.0.12[/COLOR]
+
+- Added: Sports
+- Added: Swift build
+- Fixed Library menu
+- Small improvement
+
+
+
+[COLOR lime] Version 1.0.11[/COLOR]
+
+- Language improvement menu
+- Color Change
+- Minor repairs
+
+
+[COLOR lime] Version 1.0.10[/COLOR]
+
+- Fixed viewed seasons Trakt TV (auto remove)
+- Added: Filter-out duplicate links
+
+
+[COLOR lime] Version 1.0.09[/COLOR]
+
+- 1 click movies
+- Random movie
+- Color distinction sources
+
+[COLOR lime] Version 1.0.08[/COLOR]
+
+- Rewritten menu
+- Added a new trakt (for this you have to reactivate the old trakt to get the errors from the old trakt)
+- Everything indexed again
+- Added: Circus Divas menu with extra items in it
+- Added: TMDb search function
+- Iptv and Youtube are also under the DS Collection under Circus Divas menu 
+
+[B][COLOR green] For any errors in the code send me a pm
 contact: cy4root@gmail.com [/COLOR][/B]
