@@ -91,7 +91,7 @@
 	</extension>
 </addon> 
 
-<addon id="plugin.video.descent" version="1.0.13a" name="[COLORorangered][B]Descent[/B][/COLOR]" provider-name="Cy4Root">
+<addon id="plugin.video.descent" version="1.0.14" name="[COLORorangered][B]Descent[/B][/COLOR]" provider-name="Cy4Root">
 
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
@@ -128,8 +128,7 @@
 	    		<screenshot>resources/screenshots/screen03.png</screenshot>
 		</assets>
 		<news>
-- Added: Spanish translation (under development)
-- Added: Lipton Module next to Openscrapers
+- Fix youtube api
 		</news>
 	</extension>
 
