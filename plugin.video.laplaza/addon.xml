@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.laplaza" version="1.0.18" name="[COLOR orange][B]Laplaza[/B][/COLOR]" provider-name="Cy4Root">
+<addon id="plugin.video.laplaza" version="1.0.19" name="[COLOR orange][B]Laplaza[/B][/COLOR]" provider-name="Cy4Root">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.laplaza.metadata" version="1.0.0" />
