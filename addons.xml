@@ -242,7 +242,7 @@ SLOVAKIAN CHANNELS</news>
 </addon>
 	
 
-<addon id="plugin.video.clownsreplica" version="0.4.0" name="[B][COLOR yellow]Clown's Replica[/COLOR][/B]" provider-name="[B][COLOR cyan]Mr.unknown[/COLOR][/B]">
+<addon id="plugin.video.clownsreplica" version="0.4.0a" name="[B][COLOR yellow]Clown's Replica[/COLOR][/B]" provider-name="[B][COLOR cyan]Mr.unknown[/COLOR][/B]">
    <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.clownsreplica" />
