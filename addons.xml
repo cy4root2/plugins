@@ -734,7 +734,7 @@ v5.2.15 (2019-11-22)
   </extension>
 </addon>
 
-<addon id="repository.cy4root" name="cy4root Repository" version="1.2.010" provider-name="Cy4Root">
+<addon id="repository.cy4root" name="cy4root Repository" version="1.2.011" provider-name="Cy4Root">
 	<extension point="xbmc.addon.repository" name="Cy4Root">
 
 
@@ -796,7 +796,7 @@ v5.2.15 (2019-11-22)
         <summary lang="en">Cy4Root Add-on Repository</summary>
         <description lang="en"></description>
         <platform>all</platform>
-		<news>Cleaned Repo 2019-12-20 Original Dev</news>
+		<news>Cleaned Repo 2020-10-11 Original Dev</news>
     </extension>
 </addon>
 	
