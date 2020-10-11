@@ -1,5 +1,0 @@
-1.0.0.1 Dutch language
-
-1.0.0.2 Fix Movie genre
-
-1.0.0.3 Fixed Artwork
